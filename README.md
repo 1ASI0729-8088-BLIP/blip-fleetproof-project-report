@@ -46,7 +46,7 @@
 
 | Código | Apellidos y nombres |
 |---|---|
-| Pendiente | Reyes Limo, Sebastian |
+| u202311656 | Reyes Limo, Sebastian |
 | Pendiente | Quintanilla, Gonzalo |
 | Pendiente | Gómez De La Torre, Rodrigo |
 | Pendiente | Morales, Jefferson |
