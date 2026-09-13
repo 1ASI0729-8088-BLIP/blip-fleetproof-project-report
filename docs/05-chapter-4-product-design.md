@@ -15,6 +15,18 @@ La identidad visual propuesta para FleetProof busca transmitir confianza, clarid
 
 TODO: Definir reglas responsive, estados, componentes, formularios, tablas, botones, alertas y accesibilidad.
 
+#### Branding Overview
+
+El nombre FleetProof combina dos conceptos centrales: “Fleet”, que significa flota y representa al segmento principal del proyecto, y “Proof”, que hace referencia a prueba o evidencia. Esta combinación expresa el propósito del producto: ayudar a tomar decisiones sobre vehículos a partir de información respaldada por fuentes, fechas y evidencias.
+La marca busca asociarse con una gestión organizada y transparente, en la que el usuario pueda comprender qué cambió, identificar observaciones y dar seguimiento a su resolución.
+
+#### Logo and Isotype
+El logo propuesto utiliza el nombre FleetProof con letras sans serif de apariencia moderna y trazos limpios. Como referencia tipográfica para su implementación se propone Inter SemiBold, buscando facilitar la lectura y mantener coherencia con la interfaz web.
+El nombre está acompañado por un isotipo que integra la silueta de un documento con una marca de verificación. El documento representa los reportes y el registro de evidencias; la verificación simboliza el proceso de revisión de información. Su significado se vincula con la trazabilidad del servicio, sin representar una certificación oficial ni garantizar la ausencia de riesgos.
+La paleta propuesta combina azul marino (#16324F) y verde petróleo (#087F8C) sobre fondo blanco. El azul marino se utiliza para expresar seriedad y estabilidad; el verde petróleo aporta una identidad tecnológica y destaca el componente de verificación. La diferenciación entre ambos colores también permite reconocer visualmente las dos partes del nombre.
+La composición aplica el principio de proximidad, agrupando símbolo y nombre como una unidad; el de contraste, diferenciando sus elementos del fondo; y el de simplicidad, evitando detalles decorativos que dificulten su reconocimiento. Se propone conservar un espacio libre alrededor del conjunto equivalente, como mínimo, a la altura de la letra “F”.
+El isotipo podrá utilizarse de forma independiente como favicon o identificador de la plataforma. Su construcción sencilla está pensada para facilitar la adaptación a encabezados web, reportes y pantallas pequeñas, con una revisión de legibilidad en cada tamaño de uso.
+
 ## 4.2 Information Architecture
 
 ### 4.2.1 Organization Systems
