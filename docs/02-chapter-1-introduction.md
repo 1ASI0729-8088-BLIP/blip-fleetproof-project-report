@@ -152,6 +152,9 @@ El Lean UX Canvas consolida el problema de dispersión de información vehicular
 
 **Figura 1. Lean UX Canvas de FleetProof.**
 <img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789265829/Lean_UX_Canvas_de_FleetProof_pamict.jpg" width="800"/>
+
+**Enlace al Lean UX Canvas:** [Ver en Miro](https://miro.com/app/board/uXjVHog8NRY=/?share_link_id=517541786331).
+
 ## 1.3 Segmentos objetivo
 
 ### Empresas con flotas
