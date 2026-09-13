@@ -76,38 +76,33 @@ Sabremos que tenemos éxito cuando veamos un menor tiempo de preparación de rep
 
 #### 1.2.2.2 Lean UX Assumptions
 
-##### Business Assumptions
+**Business Assumptions**
+* Las empresas pagarán por reducir el trabajo manual y el riesgo operativo en la administración de sus vehículos.
+* El monitoreo recurrente retendrá mejor a los clientes que la venta de un reporte unitario.
+* Un modelo de planes de suscripción basado en el volumen de vehículos y reportes permitirá escalar el negocio de manera sostenible.
 
-- Las empresas pagarán por reducir trabajo manual y riesgo operativo.
-- El monitoreo recurrente generará mayor retención que el reporte unitario.
-- Los planes por volumen de vehículos y reportes permitirán escalar el modelo de negocio.
+**Business Outcome Assumptions**
+* Aumentará el porcentaje de clientes que genera un segundo reporte o que mantiene activa su suscripción.
+* Disminuirá el tiempo promedio de preparación y revisión documentaria por cada vehículo.
+* Aumentará el porcentaje de observaciones vehiculares que cuentan con un responsable asignado y evidencia registrada.
 
-##### Business Outcome Assumptions
+**User Assumptions**
+* Los administradores de flota y analistas documentarios combinan actualmente múltiples portales, hojas de cálculo y aplicaciones de mensajería para realizar su trabajo.
+* Los supervisores necesitan un resumen claro del nivel de riesgo y la trazabilidad del estado de toda su flota.
+* Los compradores y propietarios particulares tienen grandes dificultades para interpretar los resultados registrales por su cuenta.
 
-- Aumentará el porcentaje de clientes que genera un segundo reporte.
-- Disminuirá el tiempo promedio de preparación y revisión.
-- Aumentará el porcentaje de observaciones con responsable y evidencia.
+**User Outcome and Benefit Assumptions**
+* Los usuarios podrán identificar unidades vehiculares críticas rápidamente para priorizar su atención.
+* Los administradores evitarán repetir consultas innecesarias y no perderán las evidencias de regularizaciones pasadas.
+* Los usuarios particulares lograrán comprender fácilmente los cambios en su vehículo y regularizar observaciones pendientes.
 
-##### User Assumptions
+**Feature Assumptions**
+* La carga masiva mediante archivos CSV reducirá significativamente el esfuerzo de adopción inicial empresarial.
+* Una checklist estructurada por fuente reducirá las omisiones de información.
+* La comparación histórica de estados (*snapshots*) hará visible la información nueva de forma inmediata.
+* Un semáforo con explicación visual facilitará la priorización de vehículos en riesgo.
+* Un sistema de gestión de casos con responsable y evidencia mejorará el seguimiento de las observaciones.
 
-- Los administradores de flota combinan portales, hojas de cálculo y mensajería.
-- Los supervisores necesitan resumen de riesgo y trazabilidad.
-- Los particulares tienen dificultad para interpretar resultados registrales.
-
-##### User Outcome and Benefit Assumptions
-
-- Los usuarios identificarán unidades críticas rápidamente.
-- Los usuarios evitaran repetir consultas y perder evidencias.
-- Los usuarios comprenderán cambios y regularizaran observaciones.
-
-##### Feature Assumptions
-
-- La carga CSV reducirá esfuerzo de adopción empresarial.
-- El checklist por fuente reducirá omisiones.
-- La comparación de snapshots hará visible información nueva.
-- El semáforo con explicación facilitará la priorización.
-- Los casos con responsable y evidencia mejorarán seguimiento.
-- Los planes con límites reales sostendrán monetización.
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
 
