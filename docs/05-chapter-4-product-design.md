@@ -1,5 +1,8 @@
 # Capítulo IV: Product Design
 
+En este capítulo se presenta el diseño de FleetProof, una plataforma web de investigación y monitoreo vehicular que aplica UX/UI Design para ofrecer una experiencia clara, consistente y accesible a empresas gestoras de flotas y usuarios particulares. El diseño se fundamenta estructuralmente en las User Stories, el Impact Mapping y un vocabulario de dominio estandarizado, asegurando un sistema coherente que prioriza la legibilidad de los reportes, la identificación de riesgos y el seguimiento de observaciones. Estos prototipos y representaciones visuales servirán como base fundamental para validar los flujos con los representantes de ambos segmentos antes de su implementación.
+
+
 ## 4.1 Style Guidelines
 
 ### 4.1.1 General Style Guidelines
