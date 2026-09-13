@@ -15,11 +15,48 @@
 
 ## 1.2 Solution Profile
 
+FleetProof es una plataforma web orientada a la investigación y monitoreo de información vehicular, diseñada principalmente para 
+empresas que administran flotas pequeñas y medianas y, de manera complementaria, para propietarios y compradores particulares.
+
 ### 1.2.1 Antecedentes y problemática
 
-FleetProof es una plataforma web propuesta por BLIP para gestiónar reportes vehiculares trazables y monitoreo documentario continuo para flotas y propietarios en Perú.
+**What? (¿Qué?)**
 
-TODO: Aplicar 5W+2H con datos verificables y entrevistas.
+**¿Cuál es el problema?**
+La investigación vehicular peruana exige revisar múltiples fuentes con finalidades y formatos distintos. La información necesaria está dispersa, generando dependencia de hojas de cálculo, falta de trazabilidad en las consultas, ausencia de comparaciones estructuradas y detección tardía de papeletas o vencimientos documentarios.
+
+**When? (¿Cuándo?)**
+
+**¿Cuándo ocurre el problema?**
+Ocurre de manera continua durante la gestión y operación de los vehículos. Surge específicamente cuando es necesario verificar la vigencia de documentación para cumplir controles, evitar vencimientos o evaluar el estado de una unidad antes de tomar una decisión de compraventa.
+
+**Where? (¿Dónde?)**
+
+**¿Dónde surge el problema?**
+El problema se plantea en Perú, dentro del contexto de empresas que realizan transporte terrestre (taxi, buses, logística) y que están sujetas a supervisión y fiscalización oficial. También afecta al mercado automotor de particulares que lidian con trámites en distintas entidades.
+
+**Who? (¿Quién?)**
+
+**¿Quiénes están involucrados?**
+Los principales involucrados son las empresas de transporte con flotas pequeñas o medianas, y los propietarios o compradores particulares de vehículos usados.
+
+**¿Quién lo utilizará?**
+Las empresas lo utilizarán mediante roles como propietarios, gerentes, jefes de operaciones, administradores de flota y analistas documentarios para monitorear el riesgo de múltiples unidades. Los usuarios particulares lo emplearán para investigar el historial de un vehículo antes de comprarlo y recibir alertas continuas.
+
+**Why? (¿Por qué?)**
+
+**¿Cuál es la causa del problema?**
+La causa principal es que la información y documentación de habilitación (como ITV, SOAT/CAT, papeletas, etc.) se encuentra descentralizada en canales de diferentes entidades públicas (como SUTRAN o SAT) y privadas. Las consultas actuales son aisladas y no cuentan con mecanismos de seguimiento unificados.
+
+**How? (¿Cómo?)**
+
+**¿Cómo se resuelve actualmente?**
+Actualmente, los administradores y usuarios dependen de consultas manuales página por página, utilizando portales individuales, archivos de Excel y aplicaciones de mensajería para coordinar las revisiones, guardar resultados y comparar información.
+
+**How much? (¿Cuánto?)**
+
+**¿Cuánto impacto o costo implica?**
+El problema genera un impacto directo manifestado en horas de trabajo administrativo perdido por vehículo. Esto desencadena graves riesgos operativos, como unidades operando con documentos vencidos, sanciones económicas (multas), interrupción del viaje, retención del vehículo y malas decisiones de compra por información incompleta.
 
 ### 1.2.2 Lean UX Process
 
