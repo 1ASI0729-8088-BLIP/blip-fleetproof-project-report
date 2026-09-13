@@ -60,6 +60,8 @@ El problema genera un impacto directo manifestado en horas de trabajo administra
 
 ### 1.2.2 Lean UX Process
 
+El enfoque Lean UX se aplica para comprender las experiencias y problemáticas de los administradores de flotas y propietarios particulares, validando hipótesis mediante experimentación rápida y retroalimentación constante.
+
 #### 1.2.2.1 Lean UX Problem Statement
 
 El estado actual de la verificación documentaria vehicular en Perú se concentra en consultas aisladas realizadas sobre múltiples portales y reportes individuales orientados principalmente a compraventa. Los productos existentes no cubren suficientemente el monitoreo continuo, la comparación histórica, la gestión colaborativa de observaciones y la consolidación del riesgo de una flota. FleetProof cubrirá esta brecha mediante una plataforma que registra vehículos, organiza consultas por fuente, genera reportes trazables y alerta cambios que puedan afectar la operación. El foco inicial serán empresas con flotas pequeñas y medianas; el segundo segmento serán propietarios y compradores particulares. El éxito se evidenciará mediante menor tiempo de preparación, detección temprana y uso recurrente.
