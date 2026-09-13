@@ -106,14 +106,45 @@ Sabremos que tenemos éxito cuando veamos un menor tiempo de preparación de rep
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
 
-TODO: Redactar un hypothesis statement por cada Feature Assumption usando:
+*   **Hypothesis 01:**
 
-```text
-We believe we will achieve [this business outcome]
-If [these personas]
-Attain [this benefit/user outcome]
-With [this feature or solution]
-```
+    Creemos que las empresas reducirán el esfuerzo de adopción inicial si cuentan con la función de carga masiva de vehículos mediante archivos CSV.
+
+    Sabremos que hemos tenido éxito.
+
+    Cuando el porcentaje mayoritario de empresas utilice activamente la función de importación masiva en lugar del registro manual individual.
+
+*   **Hypothesis 02:**
+
+    Creemos que los analistas documentarios reducirán las omisiones al investigar un vehículo si cuentan con un checklist operativo estructurado por cada fuente de consulta.
+
+    Sabremos que hemos tenido éxito.
+
+    Cuando aumente el porcentaje de checklists completados correctamente y disminuya el tiempo promedio de revisión documentaria por vehículo.
+
+*   **Hypothesis 03:**
+
+    Creemos que los clientes y usuarios particulares comprenderán fácilmente qué información es nueva si se les ofrece una comparación estructurada entre dos estados históricos o *snapshots*.
+
+    Sabremos que hemos tenido éxito.
+
+    Cuando aumente el porcentaje de clientes que genera un segundo reporte o mantiene activa su suscripción para monitoreo continuo.
+
+*   **Hypothesis 04:**
+
+    Creemos que los supervisores de flota identificarán unidades críticas rápidamente para priorizar acciones si se integra un semáforo de riesgo con evaluación determinística y explicación visual.
+
+    Sabremos que hemos tenido éxito.
+
+    Cuando disminuya el tiempo promedio que le toma a un administrador identificar un vehículo en estado crítico dentro de la plataforma.
+
+*   **Hypothesis 05:**
+
+    Creemos que los administradores de flota evitarán la pérdida de evidencias de regularización si utilizan un sistema de gestión de casos que incluya responsables asignados y registro de evidencias.
+
+    Sabremos que hemos tenido éxito.
+
+    Cuando aumente el porcentaje de observaciones vehiculares que se cierran exitosamente con un responsable asignado y evidencia adjunta en la plataforma.
 
 #### 1.2.2.4 Lean UX Canvas
 
