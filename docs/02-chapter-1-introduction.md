@@ -159,8 +159,20 @@ El Lean UX Canvas consolida el problema de dispersión de información vehicular
 
 ### Empresas con flotas
 
-Empresas de taxi, buses, turismo, reparto, logística, alquiler y servicios con aproximadamente 5 a 100 unidades.
+Este segmento prioritario está compuesto por empresas peruanas dedicadas al servicio de taxi, buses, turismo, reparto, logística y alquiler que operan entre 5 y 100 unidades 
+vehiculares. Estas organizaciones enfrentan graves consecuencias operativas si operan con documentos vencidos, por lo que requieren soluciones digitales que centralicen la información y profesionalicen sus procesos de control.
+
+*   **Edad:** 25 a 60 años.
+*   **Roles operativos:** Propietarios, gerentes, jefes de operaciones, administradores de flota y analistas documentarios.
+*   **Necesidad clave:** Conocer el estado documentario de toda la flota simultáneamente, priorizar las unidades con observaciones y reducir el trabajo manual repetitivo.
+*   **Uso de tecnología:** Dependencia actual de múltiples portales web independientes, hojas de cálculo y aplicaciones de mensajería para coordinar revisiones.
 
 ### Propietarios y compradores particulares
 
-Personas que compran, venden o administran uno o pocos vehículos, incluidos conductores independientes y taxistas propietarios.
+Este segmento complementario abarca a personas que buscan reducir la incertidumbre legal o administrativa antes de tomar decisiones sobre un vehículo. Enfrentan dificultades 
+para interpretar los resultados de diversas entidades y carecen de un mecanismo de seguimiento posterior a la consulta.
+
+*   **Edad:** 20 a 65 años.
+*   **Roles operativos:** Personas naturales que compran o venden autos usados, conductores independientes y taxistas propietarios que administran uno o pocos vehículos.
+*   **Necesidad clave:** Comprender claramente los antecedentes registrales antes de una transacción comercial y recibir alertas continuas de monitoreo sobre su placa.
+*   **Uso de tecnología:** Uso de navegadores móviles o de escritorio para realizar consultas puntuales y aisladas en plataformas públicas o pagar por reportes unitarios privados.
