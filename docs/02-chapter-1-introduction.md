@@ -4,19 +4,14 @@
 
 ### 1.1.1 Descripción de la Startup
 
-BLIP es una startup académica orientada al desarrollo de soluciones web para reducir incertidumbre operativa mediante productos digitales trazables, inclusivos y sostenibles.
+|                                                Miembro                                                 |                                                                                                                                                   Descripción                                                                                                                                                    |
+|:------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| <img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789264840/foto_stbi6t.jpg" width="500"/> |**Gonzalo Samuel Quintanilla Pozo \- U202315007** <br>  Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 21 años, como compañero me gusta apoyar y tomar iniciativa en trabajos grupales. Me especializo en los lenguajes CSS, Java y Python. Tengo experiencia desarrollando páginas web.|
+|                                       <img src="" width="500"/>                                        |                                                                                                                                                                                                                                                                                                                  |
+|                                       <img src="" width="500"/>                                        |                                                                                                                                                                                                                                                                                                                  | 
+|                                       <img src="" width="500"/>                                        |                                                                                                                                                                                                                                                                                                                  | 
+|                                       <img src="" width="500"/>                                        |                                                                                                                                                                                                                                                                                                                  | 
 
-TODO: Completar propósito, visión, valores, segmento de mercado y enfoque innovador.
-
-### 1.1.2 Perfiles de integrantes del equipo
-
-| Integrante | Código | Carrera | Perfil técnico | Aporte al equipo |
-|---|---|---|---|---|
-| Reyes Limo Sebastian | u2022311656 | Ingeniería de Software | TODO | Technical Lead, SCM and Rubric Owner |
-| Quintanilla Gonzalo | U20201B253 | Ingeniería de Software | TODO | Lean UX Owner |
-| Morales Jefferson | TODO | Ingeniería de Software | TODO | UX Research Owner |
-| Gómez De La Torre Rodrigo | TODO | Ingeniería de Software | TODO | Requirements Owner |
-| Gorbeña Eduardo | TODO | Ingeniería de Software | TODO | Product Design and Landing Page Owner |
 
 ## 1.2 Solution Profile
 
