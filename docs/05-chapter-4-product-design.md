@@ -9,7 +9,7 @@ Los lineamientos de estilo de FleetProof buscan unificar la identidad visual y l
 
 ### 4.1.1 General Style Guidelines
 
-TODO: Definir branding, tipografia, colores, espaciado, iconografia, tono de comunicación y sustento.
+La identidad visual propuesta para FleetProof busca transmitir confianza, claridad y control, cualidades fundamentales para una plataforma que permite consultar antecedentes vehiculares, comparar reportes y monitorear cambios en el estado documentario de una flota. Su estilo se basa en los principios de simplicidad, jerarquía visual y consistencia, con una apariencia profesional y comprensible para administradores de flota, analistas, propietarios y compradores particulares.
 
 ### 4.1.2 Web Style Guidelines
 
