@@ -148,8 +148,10 @@ Sabremos que tenemos éxito cuando veamos un menor tiempo de preparación de rep
 
 #### 1.2.2.4 Lean UX Canvas
 
-TODO: Insertar captura del Lean UX Canvas y explicar aprendizajes.
+El Lean UX Canvas consolida el problema de dispersión de información vehicular, los segmentos iniciales, los outcomes esperados y las funcionalidades candidatas para FleetProof. En este proyecto se utiliza para alinear al equipo en torno a los problemas de los administradores de flotas, identificar sus necesidades y definir las hipótesis a validar.
 
+**Figura 1. Lean UX Canvas de FleetProof.**
+<img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789265829/Lean_UX_Canvas_de_FleetProof_pamict.jpg" width="800"/>
 ## 1.3 Segmentos objetivo
 
 ### Empresas con flotas
