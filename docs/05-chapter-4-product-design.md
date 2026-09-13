@@ -5,6 +5,8 @@ En este capítulo se presenta el diseño de FleetProof, una plataforma web de in
 
 ## 4.1 Style Guidelines
 
+Los lineamientos de estilo de FleetProof buscan unificar la identidad visual y la comunicación del producto en todos sus puntos de contacto, tomando como base los principios de Material Design. Para ello, se estableció un Web Style Guide como repositorio común que contiene tipografías, paleta de colores, íconos e isotipos, asegurando consistencia visual entre la Web Application y el Landing Page. Además, estos lineamientos integran criterios de accesibilidad, como la comunicación del nivel de riesgo documentario mediante la combinación obligatoria de color, texto e íconos, garantizando una experiencia inclusiva.
+
 ### 4.1.1 General Style Guidelines
 
 TODO: Definir branding, tipografia, colores, espaciado, iconografia, tono de comunicación y sustento.
