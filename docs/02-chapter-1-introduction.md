@@ -16,7 +16,7 @@ TODO: Completar propósito, visión, valores, segmento de mercado y enfoque inno
 | Quintanilla Gonzalo | U20201B253 | Ingeniería de Software | TODO | Lean UX Owner |
 | Morales Jefferson | TODO | Ingeniería de Software | TODO | UX Research Owner |
 | Gómez De La Torre Rodrigo | TODO | Ingeniería de Software | TODO | Requirements Owner |
-| Gorbeña Eduardo | TODO | Ingeniería de Software | TODO | Product Design and Landing Page Owner |
+| Gorbeña Vargas, Eduardo Alexander | U202314216 | Ingeniería de Software | TODO | Product Design and Landing Page Owner |
 
 ## 1.2 Solution Profile
 
