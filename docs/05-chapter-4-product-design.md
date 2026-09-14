@@ -130,7 +130,61 @@ Como apoyo visual, la sección Precios utilizará una cuadrícula de tarjetas co
 
 ### 4.2.2 Labeling Systems
 
-TODO: Definir etiquetas breves para Landing Page y Web Application.
+El sistema de etiquetado de FleetProof busca comunicar de forma breve y clara el propósito de cada sección y acción. Se utilizarán términos relacionados con vehículos, reportes y monitoreo documentario, evitando expresiones técnicas que dificulten la comprensión. Las etiquetas conservarán el mismo significado en toda la plataforma para facilitar su reconocimiento.
+
+En los menús se emplearán nombres breves, como “Reportes” o “Alertas”; en los botones, verbos que indiquen una acción concreta, como “Consultar vehículo” o “Descargar reporte”.
+
+#### Landing Page
+
+Las etiquetas de navegación mantendrán la estructura del diseño de FleetProof:
+
+| Etiqueta  | Contenido o función                                                                    |
+| --------- | -------------------------------------------------------------------------------------- |
+| Inicio    | Presentación de FleetProof, su propuesta de valor y acceso a las acciones principales. |
+| Servicios | Explicación de las consultas, reportes y opciones de monitoreo vehicular.              |
+| Nosotros  | Información sobre el equipo y el propósito del proyecto.                               |
+| Precios   | Comparación de servicios, planes, beneficios y condiciones.                            |
+| Contacto  | Información de atención y formulario para solicitar una demostración o cotización.     |
+
+Para las llamadas a la acción se proponen etiquetas como “Consultar vehículo”, “Monitorear flota”, “Agendar demo” y “Solicitar cotización”. Estas expresiones permiten anticipar el propósito de cada interacción.
+
+#### Web Application: empresas con flotas
+
+Las etiquetas propuestas para este segmento priorizan la gestión conjunta de vehículos y el seguimiento de observaciones.
+
+| Etiqueta         | Contenido o función                                                                    |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| Panel de control | Resumen de vehículos monitoreados, alertas y observaciones pendientes.                 |
+| Flota            | Registro, importación y consulta de vehículos de la organización.                      |
+| Reportes         | Acceso a reportes individuales y consolidados, con opciones de comparación y descarga. |
+| Alertas          | Notificaciones sobre cambios y situaciones que requieren atención.                     |
+| Casos            | Seguimiento de observaciones, responsables, acciones y evidencias de resolución.       |
+| Equipo           | Administración de miembros, roles y permisos, según el acceso autorizado.              |
+| Suscripción      | Consulta del plan contratado, límites y consumo disponible.                            |
+| Configuración    | Preferencias de la cuenta y de la organización.                                        |
+
+#### Web Application: propietarios y compradores particulares
+
+Las etiquetas de este segmento se enfocarán en la consulta y el seguimiento de uno o pocos vehículos.
+
+| Etiqueta          | Contenido o función                                                      |
+| ----------------- | ------------------------------------------------------------------------ |
+| Mi panel          | Resumen de los vehículos registrados y las alertas recientes.            |
+| Mis vehículos     | Registro de placas y acceso al detalle de cada vehículo.                 |
+| Solicitar reporte | Inicio de una consulta sobre el vehículo seleccionado.                   |
+| Mis reportes      | Historial de reportes, resultados y archivos disponibles para descargar. |
+| Alertas           | Avisos relacionados con los vehículos monitoreados.                      |
+| Suscripción       | Información del plan, consultas utilizadas y capacidad disponible.       |
+| Mi perfil         | Actualización de datos personales y preferencias de la cuenta.           |
+
+#### Etiquetas de acciones y estados
+
+Los botones utilizarán expresiones consistentes como “Agregar vehículo”, “Importar vehículos”, “Ver reporte”, “Comparar reportes”, “Descargar PDF”, “Asignar responsable” y “Adjuntar evidencia”.
+
+Los estados se expresarán mediante etiquetas específicas: “En elaboración”, “En revisión” y “Publicado” para reportes; y “Pendiente”, “En atención” y “Resuelto” para casos. Cuando una fuente aún no haya sido consultada, se mostrará “Sin verificar”, evitando que la ausencia de información se interprete como un resultado favorable.
+
+Cada estado estará acompañado de una explicación cuando sea necesaria y no dependerá únicamente del color. Asimismo, las opciones visibles se ajustarán a los permisos de cada usuario, manteniendo los mismos nombres para las funciones compartidas.
+
 
 ### 4.2.3 SEO Tags and Meta Tags
 
