@@ -281,17 +281,42 @@ Los metadatos de las vistas privadas utilizarán descripciones generales, evitan
 
 ### 4.2.4 Searching Systems
 
-TODO: Definir busqueda por placa, estado, severidad, fecha, sede y responsable.
+El sistema de búsqueda de FleetProof se basará en búsquedas y filtros dentro de cada módulo, sin incorporar un buscador global. Este enfoque permitirá localizar información específica y mantener una navegación sencilla.
+
+* **Flota / Mis vehículos:** búsqueda por placa y filtros por estado documentario y, para empresas, por sede.
+* **Reportes:** búsqueda por placa o identificador, con filtros por fecha y estado del reporte.
+* **Alertas:** filtros por vehículo, tipo de alerta, severidad y estado de atención.
+* **Casos:** búsqueda por placa y filtros por responsable, estado y fecha.
+* **Equipo:** búsqueda por nombre o correo y filtro por rol.
+
+Los resultados mostrarán información resumida y acceso al detalle, limitándose a los registros autorizados para cada usuario. Cuando no existan coincidencias, se mostrará “No encontramos resultados” y la opción “Limpiar filtros”. Si ocurre un error, se ofrecerá “Reintentar”.
+
+La landing page no necesitará un buscador, porque su contenido se encuentra organizado en secciones accesibles desde el menú. Tampoco se incluirá en Perfil, Configuración y Suscripción, debido a que presentan pocas opciones y permiten acceder directamente a la información.
 
 ### 4.2.5 Navigation Systems
 
-TODO: Definir navegación de Landing Page, sidebar de Web Application y rutas por segmento.
+El sistema de navegación de FleetProof se basará en la claridad, consistencia y adaptación a distintos dispositivos. Permitirá recorrer la landing page y acceder a las funciones de la aplicación según el segmento y los permisos del usuario.
+
+* **Landing Page:** el menú superior permitirá acceder a Inicio, Servicios, Nosotros, Precios y Contacto mediante enlaces internos como `#inicio` y `#servicios`. Las acciones “Consultar vehículo” y “Monitorear flota” dirigirán al acceso o registro de la aplicación, conservando la opción seleccionada para continuar el proceso.
+* **Aplicación Web:** se propone una barra lateral con opciones diferenciadas. Las empresas accederán a Panel de control, Flota, Reportes, Alertas, Casos y Equipo; los particulares, a Mi panel, Mis vehículos, Mis reportes y Alertas. Ambos segmentos dispondrán de Suscripción y opciones de cuenta.
 
 ## 4.3 Landing Page UI Design
 
 ### 4.3.1 Landing Page Wireframe
 
-TODO: Insertar wireframes Desktop y Mobile.
+#### Landing Page para Desktop Browser
+
+Se presentan los wireframes de FleetProof para escritorio, mostrando la distribución del menú, la sección de inicio, los servicios, la información de la empresa, los precios y el contacto. Esta estructura busca facilitar la navegación y destacar la propuesta de valor para empresas y particulares.
+
+<img width="1637" height="960" alt="Image" src="https://github.com/user-attachments/assets/ad9d3ce3-e075-407d-bb2e-af5b6aa52371" />
+<img width="1632" height="964" alt="Image" src="https://github.com/user-attachments/assets/1d3373c2-af0a-4cff-a236-17e15dc14ea3" />
+<img width="1817" height="866" alt="Image" src="https://github.com/user-attachments/assets/b82d4e78-aaf9-4382-a376-6a41d8b3b666" />
+<img width="1541" height="1021" alt="Image" src="https://github.com/user-attachments/assets/8ac0d9ff-4484-4395-9aa4-f8a3052e72d9" />
+<img width="1616" height="973" alt="Image" src="https://github.com/user-attachments/assets/151f2f1c-f9e2-4dab-ad50-9cc0df699583" />
+
+#### Landing Page para Mobile Browser
+
+Se presentan los wireframes de FleetProof para dispositivos móviles, con el contenido organizado en una sola columna y un menú desplegable. Esta adaptación busca mantener la claridad de la información y facilitar el acceso a las principales acciones.
 
 ### 4.3.2 Landing Page Mock-up
 
