@@ -42,7 +42,7 @@ También se incluyen colores destinados a comunicar estados: verde (#2E7D32) par
 
 El uso consistente de esta paleta en la plataforma, el sitio de presentación y los reportes busca reforzar el reconocimiento de FleetProof y facilitar una experiencia visual ordenada y comprensible.
 
-<img...
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/3e1b4518-2df0-461a-b5ac-11a54bac7472" />
 
 #### Tipografía
 
@@ -55,12 +55,12 @@ Para textos de cuerpo y descripciones se propone Inter Regular (400) de 16 px, a
 Los botones y las etiquetas emplean Inter Medium (500) de 14 px, proporcionando énfasis suficiente para reconocer acciones como “Consultar reporte” sin competir visualmente con los encabezados.
 El uso de una sola familia tipográfica refuerza los principios de consistencia y simplicidad. La variación controlada de tamaño, peso y espaciado permite organizar la información y mantener una experiencia visual coherente entre la plataforma, el sitio de presentación y los reportes de FleetProof.
 
-<img...
+<img width="1161" height="1355" alt="Image" src="https://github.com/user-attachments/assets/b2a7e56c-3543-4e6c-9eb7-c7f36cc95999" />
 
 ### 4.1.2 Web Style Guidelines
 
 TODO: Definir reglas responsive, estados, componentes, formularios, tablas, botones, alertas y accesibilidad.
-
+g
 
 ## 4.2 Information Architecture
 
