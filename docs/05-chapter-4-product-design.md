@@ -59,14 +59,74 @@ El uso de una sola familia tipográfica refuerza los principios de consistencia 
 
 ### 4.1.2 Web Style Guidelines
 
-TODO: Definir reglas responsive, estados, componentes, formularios, tablas, botones, alertas y accesibilidad.
-g
+En esta sección se definen los estándares visuales y de interacción para las interfaces web de FleetProof, tomando como referencia el diseño de su landing page. Estos lineamientos buscan mantener una experiencia coherente, comprensible y adaptable a distintos dispositivos, facilitando la consulta de servicios, la comparación de planes y el contacto con la empresa.
+
+La propuesta conserva el azul marino (#16324F), el verde petróleo (#087F8C), los fondos blancos y los tonos grises del diseño. Asimismo, utiliza la familia tipográfica Plus Jakarta Sans y componentes con bordes redondeados. Las reglas responsive y los estados de interacción descritos complementan el mockup de escritorio y deberán aplicarse durante el desarrollo.
+
+#### Responsive Design: 
+Se propone organizar la interfaz en tres rangos: móviles, con anchos inferiores a 768 px; tabletas, entre 768 y 1023 px; y escritorio, desde 1024 px. El contenido utilizará un contenedor centrado con un ancho máximo de 1280 px y márgenes interiores de 16 px en móviles y 24 px en pantallas mayores. Las secciones con texto e imagen se apilarán verticalmente en móviles. Las cuatro tarjetas de precios se distribuirán en una, dos o cuatro columnas según el espacio disponible. Se utilizarán distribuciones flexibles y alturas ajustables al contenido para evitar recortes y desplazamiento horizontal de la página.
+
+#### Typography and Spacing: 
+Se empleará Plus Jakarta Sans para títulos, párrafos y elementos interactivos. El encabezado principal conservará los 48 px y el peso 800 del diseño de escritorio, reduciéndose aproximadamente a 32 px en móviles. Los párrafos utilizarán tamaños de 16 a 18 px y un interlineado cercano a 1,5. Los tamaños de 12 px se reservarán para notas auxiliares. Se propone una escala de espaciado basada en 4, 8, 12, 16, 24 y 32 px, que permitirá agrupar elementos relacionados y separar visualmente las secciones.
+
+#### Navigation: 
+La barra superior mantendrá el logotipo, los enlaces Inicio, Servicios, Nosotros, Precios y Contacto, y la acción para agendar una demostración. La sección activa se identificará mediante texto destacado y una línea inferior verde petróleo, siguiendo el diseño proporcionado. Cuando el contenido no quepa horizontalmente, los enlaces se agruparán en un menú desplegable accesible mediante teclado. El pie de página conservará los enlaces de navegación y la información de contacto sobre fondo azul marino.
+<img width="1274" height="91" alt="Image" src="https://github.com/user-attachments/assets/8a8bc205-edb4-48ee-aa5d-eb0c32d925cc" />
+
+#### Buttons: 
+Las acciones principales, como solicitar una demostración o enviar el formulario, utilizarán fondo verde petróleo (#087F8C), texto blanco y bordes redondeados de 12 px. Las acciones secundarias tendrán fondo blanco, texto azul marino y un borde definido. Se propone una altura mínima de 44 px y un espaciado interior suficiente para facilitar su selección. Las etiquetas expresarán acciones concretas, como “Consultar reporte” o “Solicitar cotización”. Los enlaces se utilizarán para navegar y los botones para ejecutar acciones.
+
+#### Interaction States: 
+Los controles tendrán estados normal, hover, foco, presionado y deshabilitado. Al pasar el cursor, se aplicará un cambio moderado de fondo o borde; al navegar con teclado, aparecerá un contorno de foco claramente visible. Los controles deshabilitados mostrarán una apariencia diferenciada y una explicación cuando la causa no sea evidente. Durante el envío de información, el botón mostrará un indicador y el texto “Enviando…”, evitando solicitudes duplicadas. Estos cambios conservarán las dimensiones del componente para impedir movimientos inesperados.
+
+#### Cards: 
+Las tarjetas agruparán servicios, beneficios y planes mediante un título, una descripción breve y, cuando corresponda, una acción. Se mantendrán fondos blancos o gris claro (#F1F5F9), bordes suaves y esquinas redondeadas de 12 a 16 px, presentes en el diseño. Las tarjetas de precios conservarán un orden común para nombre, importe, periodicidad, características y botón. Cualquier plan destacado incluirá una etiqueta explicativa además del cambio de color. Esta estructura facilita la comparación y aplica los principios de proximidad y consistencia.
+<img width="1277" height="831" alt="Image" src="https://github.com/user-attachments/assets/b337f44f-1b91-4e91-ad98-a3ecd119981b" />
+
+#### Forms: 
+El formulario de contacto incluirá nombre, empresa, segmento de usuario, cantidad de unidades, correo electrónico y mensaje, tomando como referencia la landing page. Cada campo contará con una etiqueta visible, indicación de obligatoriedad y ejemplos cuando sean necesarios. Se propone adaptar los requisitos al segmento: para particulares, el campo empresa será opcional y se aceptará un correo personal. Los errores aparecerán junto al campo correspondiente con instrucciones específicas, como “Ingresa un correo electrónico válido”. Si el envío falla, se conservarán los datos ingresados y se ofrecerá la posibilidad de reintentar.
+
+#### Tables: 
+Para las vistas de vehículos y reportes de la aplicación se propone extender el mismo estilo visual mediante tablas con encabezados claros, separadores discretos y filas suficientemente espaciadas. Estas podrán mostrar placa, fecha de revisión, estado documentario y acciones disponibles. Los listados extensos incorporarán búsqueda, filtros y paginación. En móviles se priorizarán los datos esenciales o se permitirá desplazamiento horizontal dentro de la tabla. También se definirán mensajes para carga, ausencia de registros y errores, evitando que un espacio vacío genere incertidumbre.
+
+#### Alerts and Status Indicators: 
+Las confirmaciones utilizarán verde (#2E7D32), las advertencias ámbar (#F9A825) y los errores rojo (#D32F2F). Los mensajes informativos podrán utilizar azul marino sobre un fondo claro. Cada aviso incluirá un icono, una descripción y, cuando corresponda, una acción, como “Reintentar” o “Revisar observación”. El ámbar se combinará con texto oscuro para favorecer su lectura. Los estados documentarios deberán indicar su significado y la fecha de revisión; la falta de información se mostrará como “Sin verificar”, evitando confundirla con un resultado favorable.
+
+#### Accessibility: 
+La interfaz deberá permitir la navegación completa mediante teclado, mantener un orden de foco lógico y proporcionar etiquetas accesibles para campos y botones con iconos. Las imágenes informativas tendrán textos alternativos y los elementos decorativos no interferirán con los lectores de pantalla. Se verificará un contraste mínimo de 4,5:1 para texto normal y de 3:1 para texto grande, conforme al criterio de contraste de WCAG. Los errores y estados se comunicarán con texto e iconos, además del color. También se comprobará que el contenido pueda ampliarse sin perder información y se respetará la preferencia de movimiento reducido del usuario.
 
 ## 4.2 Information Architecture
 
+La arquitectura de información de FleetProof busca facilitar el acceso a los servicios de consulta vehicular, reportes trazables y monitoreo documentario. Su estructura organiza los contenidos de acuerdo con las necesidades de empresas con flotas y de propietarios o compradores particulares, permitiendo avanzar desde una visión general hasta los detalles de cada vehículo, sus observaciones y evidencias.
+
+En la landing page, la información se distribuye en las secciones Inicio, Servicios, Nosotros, Precios y Contacto. Esta estructura permite conocer la propuesta de valor, explorar los servicios, identificar una alternativa adecuada y solicitar atención. En la aplicación web, se propone organizar las funcionalidades alrededor de vehículos, reportes, alertas y seguimiento de observaciones.
+
+Estas decisiones buscan reducir la sobrecarga de información, facilitar la navegación y mantener una relación clara entre cada vehículo, sus antecedentes y las acciones pendientes.
+
 ### 4.2.1 Organization Systems
 
-TODO: Explicar jerarquia, secuencia y organización por audiencia.
+FleetProof combinará diferentes sistemas de organización para que los usuarios puedan localizar información, comparar alternativas y completar sus tareas de manera ordenada.
+
+#### Jerárquica:
+La información se estructurará desde categorías generales hacia contenidos específicos. En la aplicación, el usuario podrá ingresar a Flota, seleccionar un vehículo, consultar sus reportes y revisar los hallazgos con sus respectivas fuentes y evidencias. El dashboard presentará un resumen de vehículos monitoreados y observaciones pendientes, desde el cual se accederá al detalle. Esta organización permitirá comprender dónde se encuentra cada contenido y profundizar sin mostrar toda la información simultáneamente.
+
+#### Secuencial (Step-by-step):
+Se aplicará en procesos que requieren un orden definido. Para solicitar un reporte, el usuario seleccionará o registrará un vehículo, confirmará los datos, enviará la solicitud y consultará el resultado cuando esté disponible. Para atender una observación, el flujo comprenderá revisar el hallazgo, asignar un responsable, registrar las acciones realizadas y adjuntar evidencia de resolución. Cada proceso mostrará su estado y permitirá corregir información antes de confirmar, reduciendo errores y solicitudes incompletas.
+
+#### Por audiencia:
+La información se adaptará a los dos segmentos principales del proyecto. Las empresas accederán a una visión consolidada de sus flotas, con opciones para organizar vehículos, revisar riesgos y coordinar la atención de observaciones. Los propietarios y compradores particulares tendrán una experiencia centrada en consultar uno o pocos vehículos, comprender sus antecedentes y recibir alertas. En la landing page, las descripciones de servicios y planes ayudarán a cada segmento a identificar la alternativa que corresponde a sus necesidades.
+
+#### Por roles y responsabilidades:
+Dentro de la plataforma, las opciones se organizarán según las tareas y permisos de cada usuario. El administrador de flota podrá gestionar vehículos y coordinar responsables; el analista documentario organizará consultas, resultados y evidencias; y el supervisor revisará los reportes antes de su publicación. Esta diferenciación complementará la organización por audiencia, mostrando a cada usuario las herramientas necesarias para su trabajo.
+
+#### Por tópicos:
+La landing page agrupará el contenido en Inicio, Servicios, Nosotros, Precios y Contacto, conservando su navegación actual. En la aplicación se proponen módulos como Flota o Mis vehículos, Reportes, Alertas, Casos de resolución y Suscripción. Cada módulo reunirá información relacionada con una necesidad concreta, facilitando el acceso directo sin recorrer secciones ajenas a la tarea.
+
+#### Cronológica:
+Los reportes, las alertas y las actividades de seguimiento se organizarán por fecha, mostrando primero los registros más recientes. Cada reporte conservará su fecha de elaboración y las fechas de consulta de sus fuentes. Esta organización facilitará reconocer cambios, comparar versiones y reconstruir el seguimiento de una observación.
+
+Como apoyo visual, la sección Precios utilizará una cuadrícula de tarjetas con una estructura común para comparar servicios, beneficios y condiciones. Los vehículos y reportes podrán presentarse en tablas con filtros. Estas formas de presentación complementarán los sistemas de organización y facilitarán la exploración de conjuntos de información.
+
 
 ### 4.2.2 Labeling Systems
 
