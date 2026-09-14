@@ -188,9 +188,96 @@ Cada estado estará acompañado de una explicación cuando sea necesaria y no de
 
 ### 4.2.3 SEO Tags and Meta Tags
 
-| Page | Title | Description | Keywords | Author |
-|---|---|---|---|---|
-| Landing Page | BLIP FleetProof | TODO | vehicle reports, fleet monitoring, Perú | BLIP |
+#### 4.2.3. SEO Tags and Meta Tags
+
+Para describir adecuadamente el contenido de FleetProof y facilitar su identificación en navegadores y buscadores, se proponen etiquetas SEO y metadatos para la landing page y la aplicación web. Los valores comunicarán el propósito de cada página mediante textos claros y relacionados con los reportes vehiculares y el monitoreo documentario.
+
+Cada etiqueta cumplirá una función específica:
+
+* **Title:** identificará la página en la pestaña del navegador y servirá como referencia para el título mostrado por los buscadores.
+* **Description:** resumirá el contenido de la página y podrá utilizarse como descripción en los resultados de búsqueda.
+* **Keywords:** incluirá términos relacionados con el contenido para cumplir con la documentación del proyecto. Google no utiliza esta etiqueta como factor de posicionamiento.
+* **Author:** identificará al equipo responsable del contenido.
+* **Viewport:** establecerá el ancho de visualización según el dispositivo, complementando las reglas responsive del diseño.
+* **Charset:** utilizará UTF-8 para representar correctamente tildes, caracteres especiales y símbolos.
+
+#### Landing Page SEO Tags and Meta Tags
+
+La landing page reúne Inicio, Servicios, Nosotros, Precios y Contacto dentro de una misma página. Por ello, estas secciones compartirán un único conjunto de metadatos; los enlaces internos, como `#inicio`, no requieren títulos y descripciones independientes.
+
+| Etiqueta        | Valor propuesto                                                                                                                                        |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Title**       | FleetProof — Reportes vehiculares y monitoreo de flotas                                                                                                |
+| **Description** | Consulta antecedentes vehiculares en Perú, revisa reportes con fuentes y evidencias y monitorea cambios documentarios de tus vehículos con FleetProof. |
+| **Keywords**    | FleetProof, reportes vehiculares, consulta por placa, antecedentes vehiculares, monitoreo de flotas, documentación vehicular, Perú                     |
+| **Author**      | Equipo FleetProof                                                                                                                                      |
+| **Viewport**    | width=device-width, initial-scale=1.0                                                                                                                  |
+| **Charset**     | UTF-8                                                                                                                                                  |
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>FleetProof — Reportes vehiculares y monitoreo de flotas</title>
+
+  <meta name="description"
+        content="Consulta antecedentes vehiculares en Perú, revisa reportes con fuentes y evidencias y monitorea cambios documentarios de tus vehículos con FleetProof.">
+
+  <meta name="keywords"
+        content="FleetProof, reportes vehiculares, consulta por placa, antecedentes vehiculares, monitoreo de flotas, documentación vehicular, Perú">
+
+  <meta name="author" content="Equipo FleetProof">
+</head>
+```
+
+#### Web Application SEO Tags and Meta Tags
+
+En la aplicación web, los títulos y las descripciones se actualizarán según la vista activa. Esto permitirá reconocer cada sección al navegar o trabajar con varias pestañas abiertas.
+
+Para todas las vistas se utilizará **“Equipo FleetProof”** como Author, **UTF-8** como Charset y **“width=device-width, initial-scale=1.0”** como Viewport. Los demás valores se definirán de la siguiente manera:
+
+| Página o vista        | Title                          | Description                                                                                                                | Keywords                                                 |
+| --------------------- | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| **Inicio de sesión**  | Iniciar sesión | FleetProof    | Accede a tu cuenta de FleetProof para consultar vehículos, revisar reportes y dar seguimiento a tus alertas documentarias. | FleetProof, iniciar sesión, acceso                       |
+| **Panel de control**  | Panel de control | FleetProof  | Consulta el resumen de tu flota, identifica observaciones pendientes y accede a las alertas y reportes recientes.          | panel de control, flotas, observaciones, alertas         |
+| **Flota**             | Flota | FleetProof             | Organiza los vehículos de tu empresa, importa registros y consulta el estado documentario de cada unidad.                  | flota vehicular, importar vehículos, estado documentario |
+| **Mi panel**          | Mi panel | FleetProof          | Revisa el resumen de tus vehículos, los reportes disponibles y las alertas que requieren tu atención.                      | panel personal, vehículos, reportes, alertas             |
+| **Mis vehículos**     | Mis vehículos | FleetProof     | Registra tus vehículos y accede a sus antecedentes, reportes y novedades documentarias desde un mismo lugar.               | mis vehículos, placas, antecedentes vehiculares          |
+| **Solicitar reporte** | Solicitar reporte | FleetProof | Selecciona un vehículo y solicita la revisión de sus antecedentes para obtener un reporte con fuentes y evidencias.        | solicitar reporte, consulta vehicular, evidencias        |
+| **Reportes**          | Reportes | FleetProof          | Consulta, compara y descarga los reportes vehiculares de tu organización, con acceso a sus fuentes y fechas de revisión.   | reportes de flota, comparación, descarga PDF             |
+| **Mis reportes**      | Mis reportes | FleetProof      | Accede al historial de tus reportes vehiculares, revisa sus hallazgos y descarga los documentos disponibles.               | mis reportes, historial vehicular, hallazgos             |
+| **Alertas**           | Alertas | FleetProof           | Revisa avisos sobre cambios documentarios y observaciones que requieren atención en los vehículos monitoreados.            | alertas vehiculares, cambios documentarios, monitoreo    |
+| **Casos**             | Casos | FleetProof             | Asigna responsables y registra acciones y evidencias para dar seguimiento a las observaciones de tu flota.                 | casos, observaciones, responsables, evidencias           |
+| **Equipo**            | Equipo | FleetProof            | Administra los miembros de tu organización y sus permisos para colaborar en la revisión y el seguimiento vehicular.        | equipo, miembros, roles, permisos                        |
+| **Suscripción**       | Suscripción | FleetProof       | Consulta tu plan de FleetProof, revisa el consumo disponible y administra las opciones de tu suscripción.                  | suscripción, planes, límites, consumo                    |
+| **Mi perfil**         | Mi perfil | FleetProof         | Consulta y actualiza tus datos personales y preferencias de cuenta en FleetProof.                                          | perfil, cuenta, preferencias                             |
+| **Configuración**     | Configuración | FleetProof     | Ajusta las preferencias de tu cuenta y las opciones de tu organización según tus permisos de acceso.                       | configuración, organización, preferencias                |
+
+Las vistas privadas incorporarán la directiva `noindex` para indicar que no deben aparecer en los resultados de búsqueda. El acceso a su contenido dependerá de la autenticación y los permisos de la aplicación; esta etiqueta no sustituye esos controles.
+
+Como ejemplo, el encabezado del panel empresarial utilizará:
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Panel de control | FleetProof</title>
+
+  <meta name="description"
+        content="Consulta el resumen de tu flota, identifica observaciones pendientes y accede a las alertas y reportes recientes.">
+
+  <meta name="keywords"
+        content="panel de control, flotas, observaciones, alertas">
+
+  <meta name="author" content="Equipo FleetProof">
+  <meta name="robots" content="noindex">
+</head>
+```
+
+Los metadatos de las vistas privadas utilizarán descripciones generales, evitando incluir placas, nombres de clientes u otros datos particulares.
+
 
 ### 4.2.4 Searching Systems
 
