@@ -341,6 +341,14 @@ Se presentan los wireframes de FleetProof para la aplicación web en escritorio,
 Se presentan los wireframes de FleetProof adaptados a dispositivos móviles, donde la información se organiza de manera vertical y con navegación simplificada. Esta adaptación busca mantener la accesibilidad y facilitar consultas rápidas desde cualquier ubicación.
 
 <img width="388" height="908" alt="Image" src="https://github.com/user-attachments/assets/c8c6b387-ba99-46a4-8347-2ca82f7ce68d" />
+<img width="388" height="692" alt="Image" src="https://github.com/user-attachments/assets/62e6c153-d912-43cd-9b25-60d4b275a4b0" />
+<img width="389" height="906" alt="Image" src="https://github.com/user-attachments/assets/cc09a696-f886-4ed5-8d3a-caba2dd90626" />
+<img width="386" height="903" alt="Image" src="https://github.com/user-attachments/assets/f7f3f55c-72d1-435f-8ea0-97e79b439886" />
+<img width="385" height="908" alt="Image" src="https://github.com/user-attachments/assets/5c08f8a9-7640-4a4d-affa-4461880ab312" />
+<img width="389" height="907" alt="Image" src="https://github.com/user-attachments/assets/37c1e2c3-6212-4c85-abea-0b38addeeb70" />
+<img width="387" height="889" alt="Image" src="https://github.com/user-attachments/assets/3c133ff8-6197-48a4-a3fe-b38df2363a46" />
+<img width="389" height="862" alt="Image" src="https://github.com/user-attachments/assets/9f3001fd-e347-404f-b25c-77a591b3721e" />
+
 
 ## 4.4 Web Applications UX/UI Design
 
