@@ -4,12 +4,16 @@
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptacion | Relacionado con |
 |---|---|---|---|---|
-| EP01 | Landing Page | Presentacion publica del modelo de negocio. | TODO | - |
-| US001 | View value proposition | Como visitante, deseo visualizar la propuesta de valor para comprender el beneficio de FleetProof. | Given el visitante ingresa al Landing Page, When revisa la sección principal, Then visualiza propuesta de valor, segmentos y call-to-action. | EP01 |
-| US002 | Fleet monitoring CTA | Como visitante empresarial, deseo acceder al flujo de monitoreo de flota para iniciar evaluación de mi organización. | Given el visitante empresarial revisa el Landing Page, When selecciona el call-to-action de flota, Then es dirigido a la vista correspondiente de la Web Application. | EP01 |
-| US003 | Vehicle report CTA | Como visitante particular, deseo acceder al flujo de consulta vehicular para solicitar un reporte. | Given el visitante particular revisa el Landing Page, When selecciona el call-to-action de consulta, Then es dirigido a la vista correspondiente de la Web Application. | EP01 |
-| US004 | Compare plans | Como visitante, deseo comparar planes y límites para elegir la opcion adecuada. | Given el visitante revisa la sección de planes, When compara opciones, Then identifica límites, beneficios y restricciones de cada plan. | EP01 |
-| US005 | View legal pages | Como visitante, deseo acceder a Terms and Conditions y Privacy Policy para conocer condiciones de uso y proteccion de datos. | Given el visitante esta en el Landing Page, When selecciona enlaces legales del footer, Then visualiza Terms and Conditions o Privacy Policy. | EP01 |
+| EPIC01 | Sitio Web Estático (Landing Page) | Como negocio, deseo contar con un sitio web estático para presentar la propuesta de valor de FleetProof y captar a los segmentos objetivo. | - | - |
+| US01 | Presentación de propuesta para flotas | Como visitante del segmento empresas, deseo conocer la propuesta de valor del producto para entender cómo reduce mi riesgo operativo. | Escenario 1: Carga de propuesta.Dado que un visitante del segmento empresas ingresa al sitio web,Cuando el sistema procesa la petición de la página principal,Entonces el sistema muestra el título y la descripción del servicio orientado a la gestión de flotas. | EPIC01 |
+| US02 | Beneficios para usuarios particulares | Como visitante del segmento compradores particulares, deseo leer los beneficios de consultar una placa para decidir mi compra. | Escenario 1: Visualización de beneficios.Dado que un visitante navega por el sitio web,Cuando el visitante accede a la sección de particulares,Entonces el sistema despliega la información sobre prevención de multas y evaluación de riesgos vehiculares. | EPIC01 |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
 
 ## 3.2 Impact Mapping
 
@@ -19,11 +23,13 @@ TODO: Crear Impact Map en UXPressia con Business Goals SMART, Actors, Impacts, D
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |---:|---|---|---|---:|
-| 1 | US001 | View value proposition | Como visitante, deseo visualizar la propuesta de valor para comprender el beneficio de FleetProof. | 2 |
-| 2 | US002 | Fleet monitoring CTA | Como visitante empresarial, deseo acceder al flujo de monitoreo de flota para iniciar evaluación de mi organización. | 3 |
-| 3 | US003 | Vehicle report CTA | Como visitante particular, deseo acceder al flujo de consulta vehicular para solicitar un reporte. | 3 |
-| 4 | US004 | Compare plans | Como visitante, deseo comparar planes y límites para elegir la opcion adecuada. | 3 |
-| 5 | US005 | View legal pages | Como visitante, deseo acceder a Terms and Conditions y Privacy Policy para conocer condiciones de uso y proteccion de datos. | 2 |
+| 1 | US01 | Presentación de propuesta para flotas | Como visitante del segmento empresas, deseo conocer la propuesta de valor del producto para entender cómo reduce mi riesgo operativo. | 3 |
+| 2 | US02 | Beneficios para usuarios particulares | Como visitante del segmento compradores particulares, deseo leer los beneficios de consultar una placa para decidir mi compra. | 2 |
+| 3 | US03 | Consulta inicial por placa | Como administrador de flota, deseo ingresar una placa vehicular para generar un reporte con sus antecedentes unificados. | 5 |
+| 4 | US04 | API Endpoint: Consulta de Vehicle Report | Como Developer, deseo disponer de un endpoint RESTful para consultar el estado de un vehículo mediante su placa para su integración. | 3 |
+| 5 | US05 | Evaluación con Semáforo de Riesgo | Como supervisor de flota, deseo visualizar un semáforo de riesgo para identificar unidades vehiculares críticas rápidamente. | 5 |
+| 6 | US06 | Carga masiva mediante CSV | Como administrador de flota, deseo importar un archivo CSV con placas para registrar mis vehículos masivamente sin esfuerzo manual. | 8 |
+| 7 | US07 | Comparación histórica de Snapshots| Como analista documentario, deseo que el sistema compare dos estados históricos para detectar nueva información de forma inmediata. | 8 |
 
 URL público del Product Backlog: TODO
 
