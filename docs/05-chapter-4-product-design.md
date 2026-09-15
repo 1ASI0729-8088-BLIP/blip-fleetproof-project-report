@@ -318,9 +318,29 @@ Se presentan los wireframes de FleetProof para escritorio, mostrando la distribu
 
 Se presentan los wireframes de FleetProof para dispositivos móviles, con el contenido organizado en una sola columna y un menú desplegable. Esta adaptación busca mantener la claridad de la información y facilitar el acceso a las principales acciones.
 
+<img width="725" height="2170" alt="Image" src="https://github.com/user-attachments/assets/3aaefbb8-4290-4e1e-aafb-444b2e342014" />
+<img width="425" height="1622" alt="Image" src="https://github.com/user-attachments/assets/4a0556c9-8bcc-44b9-8388-b8eaa3db9338" />
+<img width="552" height="1681" alt="Image" src="https://github.com/user-attachments/assets/7aa64129-c4ed-4ab5-ae2e-84913e054d93" />
+<img width="451" height="1448" alt="Image" src="https://github.com/user-attachments/assets/770a951f-adfc-4752-88ce-3a1711cd9e33" />
+<img width="529" height="1448" alt="Image" src="https://github.com/user-attachments/assets/4bf5ca8d-d34b-4e5d-b03e-fb84f086ddb0" />
+
 ### 4.3.2 Landing Page Mock-up
 
-TODO: Insertar mock-ups Desktop y Mobile.
+**Web Application para Desktop Browser**
+
+Se presentan los wireframes de FleetProof para la aplicación web en escritorio, mostrando la estructura principal del sistema para la gestión y monitoreo vehicular. La interfaz organiza los módulos de manera clara, permitiendo acceder a información como vehículos registrados, reportes, alertas y seguimiento de casos.
+
+<img width="1276" height="907" alt="Image" src="https://github.com/user-attachments/assets/888f6622-bcfe-4560-8167-5d4917d6b31c" />
+<img width="1275" height="906" alt="Image" src="https://github.com/user-attachments/assets/9a7628e3-46cc-4746-8abf-f36d67ee4a50" />
+<img width="1278" height="757" alt="Image" src="https://github.com/user-attachments/assets/b99d9706-d213-4d18-9153-641ec0c230f8" />
+<img width="1277" height="854" alt="Image" src="https://github.com/user-attachments/assets/daa2ca14-5743-4a3e-bc36-9976e09089c3" />
+<img width="1277" height="870" alt="Image" src="https://github.com/user-attachments/assets/9502f742-c494-4903-aeea-cdc01d00f766" />
+
+**Web Application para Mobile Browser**
+
+Se presentan los wireframes de FleetProof adaptados a dispositivos móviles, donde la información se organiza de manera vertical y con navegación simplificada. Esta adaptación busca mantener la accesibilidad y facilitar consultas rápidas desde cualquier ubicación.
+
+<img width="388" height="908" alt="Image" src="https://github.com/user-attachments/assets/c8c6b387-ba99-46a4-8347-2ca82f7ce68d" />
 
 ## 4.4 Web Applications UX/UI Design
 
