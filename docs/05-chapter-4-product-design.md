@@ -490,15 +490,211 @@ TODO: Identificar Bounded Contexts, Aggregates, Events, Commands and Queries.
 
 ### 4.6.2 Software Architecture Context Diagram
 
-TODO: Insertar C4 Context Diagram.
+```mermaid
+flowchart TB
+    classDef person fill:#08427b,stroke:#073b6f,stroke-width:2px,color:#fff;
+    classDef internal fill:#1168bd,stroke:#0b4884,stroke-width:2px,color:#fff;
+    classDef external fill:#999999,stroke:#666666,stroke-width:2px,color:#fff;
+
+    user1["Usuario Final"]:::person
+    user2["Usuario de Monitoreo"]:::person
+    user3["Gestor de Flota"]:::person
+
+    core["Sistema de Consulta y Monitoreo Vehicular"]:::internal
+
+    ext1["Taypi Payment System"]:::external
+    ext2["CAPTCHA Resolution Service"]:::external
+    ext3["Fuentes Oficiales"]:::external
+    ext4["Notification Provider"]:::external
+
+    user1 -->|Solicita reportes y paga consultas| core
+    user2 -->|Activa suscripcion y monitorea| core
+    user3 -->|Registra flotas y atiende riesgos| core
+
+    core -->|Procesa transacciones| ext1
+    core -->|Resuelve desafios visuales| ext2
+    core -->|Consulta datos registrales y papeletas| ext3
+    core -->|Despacha alertas y avisos| ext4
+```
+
+**Explicación, decisiones y relación con otros artefactos:** El diagrama de contexto representa los límites del sistema central y sus interacciones con los tres perfiles de usuario identificados, así como los servicios externos para procesamiento de pagos, resolución de CAPTCHA, consulta de fuentes oficiales y envío de notificaciones.
+
 
 ### 4.6.3 Software Architecture Container Diagrams
 
-TODO: Insertar C4 Container Diagram.
+El diagrama de componentes desglosa la aplicación backend RESTful API (monolito modular en ASP.NET Core) en sus módulos y componentes internos organizados por Bounded Contexts, detallando el flujo desde los controladores HTTP hasta los adaptadores externos y la persistencia relacional con Entity Framework Core.
+
+```mermaid
+flowchart TB
+    %% Estilos
+    classDef client fill:#08427b,stroke:#073b6f,stroke-width:2px,color:#fff;
+    classDef controller fill:#438dd5,stroke:#2e6295,stroke-width:2px,color:#fff;
+    classDef appService fill:#1168bd,stroke:#0b4884,stroke-width:2px,color:#fff;
+    classDef domain fill:#0d47a1,stroke:#002171,stroke-width:2px,color:#fff;
+    classDef infra fill:#5c6bc0,stroke:#3949ab,stroke-width:2px,color:#fff;
+    classDef db fill:#2e7d32,stroke:#1b5e20,stroke-width:2px,color:#fff;
+    classDef external fill:#757575,stroke:#424242,stroke-width:2px,color:#fff;
+
+    %% Clientes Frontend
+    spa["Frontend Web Application<br/>Vue 3 / PrimeVue"]:::client
+
+    %% Sistemas Externos y BD
+    db[("Core Database<br/>PostgreSQL / MySQL")]:::db
+    ext_taypi["Taypi Payment System"]:::external
+    ext_captcha["CAPTCHA Resolution Service"]:::external
+    ext_sources["Fuentes Oficiales<br/>SUNARP / Transito"]:::external
+    ext_notif["Notification Provider<br/>Email / SMS / Push"]:::external
+
+    %% Componentes del Backend API
+    subgraph BackendAPI ["Backend RESTful API - ASP.NET Core"]
+        
+        subgraph Sub_Module ["Subscriptions Context"]
+            sub_ctrl["SubscriptionController<br/>Manejo de endpoints de planes"]:::controller
+            sub_srv["SubscriptionService<br/>Logica de activacion y cuotas"]:::appService
+            sub_agg["Aggregate: Subscription<br/>Plan, Status, Limits"]:::domain
+        end
+
+        subgraph User_Module ["User Management Context"]
+            user_ctrl["UserController / AuthController<br/>Endpoints JWT y registro"]:::controller
+            user_srv["UserService<br/>Validacion de credenciales"]:::appService
+            user_agg["Aggregate: User<br/>Identity, Profile, Roles"]:::domain
+        end
+
+        subgraph Veh_Module ["Vehicle Information Context"]
+            veh_ctrl["VehicleController<br/>Validacion y consultas"]:::controller
+            veh_srv["VehicleQueryService<br/>Orquestacion de consultas y retry"]:::appService
+            veh_agg["Aggregate: Vehicle<br/>Plate, TechnicalData, History"]:::domain
+            veh_conn["SourceConnectorAdapter<br/>Llamadas HTTP y bypass CAPTCHA"]:::infra
+        end
+
+        subgraph Rep_Module ["Report Management Context"]
+            rep_ctrl["ReportController<br/>Descarga y generacion"]:::controller
+            rep_srv["ReportGenerationService<br/>Consolidacion de antecedentes"]:::appService
+            rep_agg["Aggregate: VehicleReport<br/>Findings, RiskSummary, Status"]:::domain
+        end
+
+        subgraph Mon_Module ["Vehicle Monitoring Context"]
+            mon_wrk["MonitoringBackgroundWorker<br/>Cron/Scheduler de revisiones"]:::appService
+            mon_srv["ChangeDetectionService<br/>Comparador de snapshots"]:::appService
+            mon_agg["Aggregate: VehicleMonitoring<br/>Schedule, Alerts, Discrepancies"]:::domain
+        end
+
+        subgraph Flt_Module ["Fleet Management Context"]
+            flt_ctrl["FleetController<br/>Gestion de flotas y asignacion"]:::controller
+            flt_srv["FleetRiskService<br/>Evaluacion de riesgo y casos"]:::appService
+            flt_agg["Aggregate: Fleet<br/>Vehicles, AssignedPersons, Risks"]:::domain
+        end
+
+        infra_ef["EF Core DbContext<br/>Unit of Work y Repositorios"]:::infra
+        infra_notif["NotificationAdapter<br/>Cliente HTTP para envios"]:::infra
+    end
+
+    %% Peticiones desde Frontend
+    spa -->|POST /api/v1/auth| user_ctrl
+    spa -->|POST /api/v1/subscriptions| sub_ctrl
+    spa -->|GET /api/v1/vehicles| veh_ctrl
+    spa -->|GET /api/v1/reports| rep_ctrl
+    spa -->|POST /api/v1/fleets| flt_ctrl
+
+    %% Flujos Internos de Aplicacion
+    user_ctrl --> user_srv
+    user_srv --> user_agg
+
+    sub_ctrl --> sub_srv
+    sub_srv --> sub_agg
+    sub_srv -->|Procesa cobro| ext_taypi
+
+    veh_ctrl --> veh_srv
+    veh_srv --> veh_agg
+    veh_srv --> veh_conn
+    veh_conn -->|Resuelve token| ext_captcha
+    veh_conn -->|Extrae datos| ext_sources
+
+    rep_ctrl --> rep_srv
+    rep_srv --> rep_agg
+    rep_srv -->|Solicita antecedentes| veh_srv
+
+    mon_wrk --> mon_srv
+    mon_srv --> mon_agg
+    mon_srv -->|Consulta estado actual| veh_srv
+    mon_srv -->|Dispara alerta de cambio| infra_notif
+
+    flt_ctrl --> flt_srv
+    flt_srv --> flt_agg
+    flt_srv -->|Verifica alertas| mon_srv
+    flt_srv -->|Notifica responsable| infra_notif
+
+    infra_notif -->|Despacha mensaje| ext_notif
+
+    %% Persistencia hacia la BD
+    user_agg --> infra_ef
+    sub_agg --> infra_ef
+    veh_agg --> infra_ef
+    rep_agg --> infra_ef
+    mon_agg --> infra_ef
+    flt_agg --> infra_ef
+
+    infra_ef --> db
+```
+
+**Explicación, decisiones y relación con otros artefactos:**
+El diagrama de nivel C3 desglosa los componentes internos de la API desarrollada en ASP.NET Core bajo el principio de diseño dirigido por el dominio (DDD):
+* **VehicleQueryService y SourceConnectorAdapter:** Implementan la política de resiliencia frente a la caída de portales externos, ejecutando reintentos exponenciales y coordinando la resolución de retos CAPTCHA antes de persistir los datos de la placa.
+* **MonitoringBackgroundWorker y ChangeDetectionService:** Ejecutan tareas en segundo plano (*IHostedService* en ASP.NET Core) para consultar fuentes periódicamente, comparar los estados de los vehículos y despachar alertas a través de *NotificationAdapter*.
+* **Capa de Persistencia (EF Core):** Centraliza el acceso a la base de datos relacional mediante el patrón repositorio y Unit of Work, asegurando consistencia transaccional en el guardado de reportes, historiales de monitoreo y membresías de usuarios.
 
 ### 4.6.4 Software Architecture Components Diagrams
+```mermaid
+flowchart TB
+    classDef clientNode fill:#eceff1,stroke:#607d8b,stroke-width:2px,color:#263238;
+    classDef edgeNode fill:#e3f2fd,stroke:#1e88e5,stroke-width:2px,color:#0d47a1;
+    classDef computeNode fill:#e8eaf6,stroke:#3f51b5,stroke-width:2px,color:#1a237e;
+    classDef dbNode fill:#e8f5e9,stroke:#43a047,stroke-width:2px,color:#1b5e20;
+    classDef extNode fill:#eeeeee,stroke:#757575,stroke-width:2px,color:#212121;
+    classDef artifact fill:#ffffff,stroke:#455a64,stroke-width:1px,color:#263238;
 
-TODO: Insertar C4 Component Diagrams.
+    subgraph Client_Device [Dispositivo de Usuario Desktop / Mobile]
+        browser[Navegador Web Chrome / Firefox / Edge]:::artifact
+    end
+
+    subgraph Hosting_Static [Hosting Estatico Vercel / Netlify]
+        landing_art[Landing Page HTML5 / CSS3 / JS]:::artifact
+        spa_art[Frontend SPA Vue 3 / PrimeVue]:::artifact
+    end
+
+    subgraph Cloud_PaaS [Plataforma Cloud Render / Azure]
+        api_art[FleetProof Web API ASP.NET Core]:::artifact
+        worker_art[Background Task Runner Monitoring Worker]:::artifact
+    end
+
+    subgraph Cloud_DB [Base de Datos Gestionada]
+        db_engine[(PostgreSQL Engine Schemas IAM / Fleet / Reports)]:::artifact
+    end
+
+    subgraph External_Cloud [Servicios Externos Integrados]
+        srv_pay[Taypi Payment Gateway]:::extNode
+        srv_captcha[2Captcha Service]:::extNode
+        srv_gov[Portales Oficiales SUNARP / SAT]:::extNode
+        srv_notif[Notification Provider Resend / SendGrid]:::extNode
+        srv_media[Cloudinary Storage]:::extNode
+    end
+
+    browser -->|HTTPS 443| landing_art
+    browser -->|HTTPS 443| spa_art
+    browser -->|JSON HTTPS 443| api_art
+
+    api_art -->|TCP 5432 EF Core| db_engine
+    worker_art -->|TCP 5432 EF Core| db_engine
+
+    api_art -->|HTTPS 443| srv_pay
+    api_art -->|HTTPS 443| srv_captcha
+    api_art -->|HTTPS 443| srv_gov
+    worker_art -->|HTTPS 443| srv_gov
+    worker_art -->|HTTPS 443| srv_notif
+    api_art -->|HTTPS 443| srv_media
+```
+
+**Explicación, decisiones y relación con otros artefactos:** El diagrama de despliegue representa la distribución en infraestructura cloud de los artefactos del sistema: Landing Page y Frontend SPA distribuidos en CDN, API RESTful y Background Workers en contenedor Linux PaaS, base de datos relacional PostgreSQL gestionada, y conexiones seguras vía HTTPS/TLS hacia servicios externos de pagos, resolución de CAPTCHA, portales vehiculares, almacenamiento y notificaciones.
 
 ## 4.7 Software Object-Oriented Design
 
