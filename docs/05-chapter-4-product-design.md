@@ -28,8 +28,7 @@ La composición aplica el principio de proximidad, agrupando símbolo y nombre c
 
 El isotipo podrá utilizarse de forma independiente como favicon o identificador de la plataforma. Su construcción sencilla está pensada para facilitar la adaptación a encabezados web, reportes y pantallas pequeñas, con una revisión de legibilidad en cada tamaño de uso.
 
-<img width="2048" height="768" alt="Image" src="https://private-user-images.githubusercontent.com/129182231/651005254-1df8168e-04e1-4230-9edc-282509ba96fb.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODkzMzQxMzAsIm5iZiI6MTc4OTMzMzgzMCwicGF0aCI6Ii8xMjkxODIyMzEvNjUxMDA1MjU0LTFkZjgxNjhlLTA0ZTEtNDIzMC05ZWRjLTI4MjUwOWJhOTZmYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwOTEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDkxM1QyMTEwMzBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZDYzZmIxMThjZmQ3NWRlZmVhYmRjZDA1MDZmM2I1YWExOTU2MTQxZjhmYjQ2YzNhMjc3NDMzYzNjYmU5Yjk4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.VsO5pKRsRhHF-9ZXsHTaQRxYkQb2A-2t07XK6lzmEa4" />
-
+<img width="2048" height="768" alt="Image" src="https://github.com/user-attachments/assets/1df8168e-04e1-4230-9edc-282509ba96fb" />
 #### Colores
 
 La paleta cromática propuesta para FleetProof busca transmitir confianza, claridad y profesionalismo, valores relacionados con su propósito de organizar reportes vehiculares y facilitar el monitoreo documentario de flotas.
