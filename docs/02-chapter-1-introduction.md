@@ -15,7 +15,7 @@ TODO: Completar propósito, visión, valores, segmento de mercado y enfoque inno
 | Reyes Limo Sebastian | u2022311656 | Ingeniería de Software | TODO | Technical Lead, SCM and Rubric Owner |
 | Quintanilla Gonzalo | U20201B253 | Ingeniería de Software | TODO | Lean UX Owner |
 | Morales Jefferson | TODO | Ingeniería de Software | TODO | UX Research Owner |
-| Gómez De La Torre Rodrigo | TODO | Ingeniería de Software | TODO | Requirements Owner |
+| Gómez De La Torre Rodrigo | u202311464 | Ingeniería de Software | TODO | Requirements Owner |
 | Gorbeña Eduardo | TODO | Ingeniería de Software | TODO | Product Design and Landing Page Owner |
 
 ## 1.2 Solution Profile
