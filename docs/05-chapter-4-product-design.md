@@ -28,7 +28,8 @@ La composición aplica el principio de proximidad, agrupando símbolo y nombre c
 
 El isotipo podrá utilizarse de forma independiente como favicon o identificador de la plataforma. Su construcción sencilla está pensada para facilitar la adaptación a encabezados web, reportes y pantallas pequeñas, con una revisión de legibilidad en cada tamaño de uso.
 
-<img width="2048" height="768" alt="Image" src="https://github.com/user-attachments/assets/1df8168e-04e1-4230-9edc-282509ba96fb" />
+<img width="2048" height="768" alt="Image" src="https://github.com/user-attachments/assets/1df8168e-04e1-4230-9edc-282509ba96fb" /> 
+
 #### Colores
 
 La paleta cromática propuesta para FleetProof busca transmitir confianza, claridad y profesionalismo, valores relacionados con su propósito de organizar reportes vehiculares y facilitar el monitoreo documentario de flotas.
