@@ -869,5 +869,119 @@ El diagrama modela exactamente los 6 Bounded Contexts y sus respectivos comandos
 
 ### 4.8.1 Database Diagrams
 
-TODO: Insertar database diagrams con tablas, columnas, constraints y relaciones.
+El diagrama de base de datos representa el modelo físico relacional implementado en PostgreSQL/MySQL mediante Entity Framework Core, organizando las tablas normalizadas en función de los seis Bounded Contexts del sistema.
+
+```mermaid
+erDiagram
+    %% 1. User Management Context
+    USERS {
+        uuid id PK
+        varchar email
+        varchar password_hash
+        varchar full_name
+        varchar role
+        boolean is_active
+        timestamp created_at
+    }
+
+    %% 2. Subscription Management Context
+    SUBSCRIPTIONS {
+        uuid id PK
+        uuid user_id FK
+        varchar service_type
+        varchar status
+        timestamp start_date
+        timestamp end_date
+        decimal amount_paid
+    }
+
+    %% 3. Vehicle Information Context
+    VEHICLES {
+        uuid id PK
+        varchar license_plate UK
+        varchar brand
+        varchar model
+        integer model_year
+        boolean is_valid_plate
+        timestamp registered_at
+    }
+
+    SOURCE_CHECKS {
+        uuid id PK
+        uuid vehicle_id FK
+        varchar source_name
+        boolean is_available
+        text raw_response
+        timestamp checked_at
+    }
+
+    %% 4. Report Management Context
+    VEHICLE_REPORTS {
+        uuid id PK
+        uuid vehicle_id FK
+        uuid requested_by_user_id FK
+        varchar report_type
+        text sunarp_data
+        text traffic_violations_data
+        varchar pdf_url
+        timestamp generated_at
+    }
+
+    %% 5. Vehicle Monitoring Context
+    VEHICLE_MONITORINGS {
+        uuid id PK
+        uuid vehicle_id FK
+        uuid user_id FK
+        boolean is_active
+        timestamp last_check_date
+        timestamp next_scheduled_check
+    }
+
+    MONITORING_ALERTS {
+        uuid id PK
+        uuid monitoring_id FK
+        text change_detail
+        varchar status
+        timestamp created_at
+    }
+
+    %% 6. Fleet Management Context
+    FLEETS {
+        uuid id PK
+        uuid manager_user_id FK
+        varchar fleet_name
+        timestamp created_at
+    }
+
+    FLEET_VEHICLE_ASSIGNMENTS {
+        uuid id PK
+        uuid fleet_id FK
+        uuid vehicle_id FK
+        uuid responsible_user_id FK
+        varchar current_risk_level
+        timestamp assigned_at
+    }
+
+    %% Relaciones Físicas (Foreign Keys)
+    USERS ||--o{ SUBSCRIPTIONS : "contrata"
+    USERS ||--o{ VEHICLE_REPORTS : "solicita"
+    USERS ||--o{ VEHICLE_MONITORINGS : "suscribe"
+    USERS ||--o{ FLEETS : "administra"
+    USERS ||--o{ FLEET_VEHICLE_ASSIGNMENTS : "es responsable de"
+
+    VEHICLES ||--o{ SOURCE_CHECKS : "registra consultas"
+    VEHICLES ||--o{ VEHICLE_REPORTS : "genera"
+    VEHICLES ||--o{ VEHICLE_MONITORINGS : "es monitoreado en"
+    VEHICLES ||--o{ FLEET_VEHICLE_ASSIGNMENTS : "es asignado en"
+
+    FLEETS ||--o{ FLEET_VEHICLE_ASSIGNMENTS : "contiene"
+    VEHICLE_MONITORINGS ||--o{ MONITORING_ALERTS : "dispara"
+```
+
+**Explicación, decisiones y relación con otros artefactos:**
+El diseño físico de la base de datos implementa las siguientes decisiones técnicas:
+* **Normalización y consistencia:** El esquema se encuentra normalizado en Tercera Forma Normal (3FN), evitando redundancia de datos vehiculares en `VEHICLES` y desacoplando el histórico de consultas en `SOURCE_CHECKS` y reportes consolidados en `VEHICLE_REPORTS`.
+* **Identificadores UUID:** Se utilizan llaves primarias de tipo UUID en todas las tablas para evitar colisiones en entornos distribuidos y permitir sincronización segura con la API.
+* **Separación de responsabilidades de monitoreo y flota:** La tabla `FLEET_VEHICLE_ASSIGNMENTS` actúa como tabla intermedia que relaciona flotas con vehículos y delega formalmente la supervisión a un usuario responsable (`responsible_user_id`), mientras que `VEHICLE_MONITORINGS` y `MONITORING_ALERTS` administran de forma independiente las alertas generadas por cambios en las fuentes.
+
 
