@@ -328,7 +328,7 @@ Se presentan los wireframes de FleetProof para dispositivos móviles, con el con
 
 **Web Application para Desktop Browser**
 
-Se presentan los wireframes de FleetProof para la aplicación web en escritorio, mostrando la estructura principal del sistema para la gestión y monitoreo vehicular. La interfaz organiza los módulos de manera clara, permitiendo acceder a información como vehículos registrados, reportes, alertas y seguimiento de casos.
+Se presentan los mock-ups de FleetProof para la aplicación web en escritorio, mostrando la estructura principal del sistema para la gestión y monitoreo vehicular. La interfaz organiza los módulos de manera clara, permitiendo acceder a información como vehículos registrados, reportes, alertas y seguimiento de casos.
 
 <img width="1276" height="907" alt="Image" src="https://github.com/user-attachments/assets/888f6622-bcfe-4560-8167-5d4917d6b31c" />
 <img width="1275" height="906" alt="Image" src="https://github.com/user-attachments/assets/9a7628e3-46cc-4746-8abf-f36d67ee4a50" />
@@ -338,7 +338,7 @@ Se presentan los wireframes de FleetProof para la aplicación web en escritorio,
 
 **Web Application para Mobile Browser**
 
-Se presentan los wireframes de FleetProof adaptados a dispositivos móviles, donde la información se organiza de manera vertical y con navegación simplificada. Esta adaptación busca mantener la accesibilidad y facilitar consultas rápidas desde cualquier ubicación.
+Se presentan los mock-ups de FleetProof adaptados a dispositivos móviles, donde la información se organiza de manera vertical y con navegación simplificada. Esta adaptación busca mantener la accesibilidad y facilitar consultas rápidas desde cualquier ubicación.
 
 <img width="388" height="908" alt="Image" src="https://github.com/user-attachments/assets/c8c6b387-ba99-46a4-8347-2ca82f7ce68d" />
 <img width="388" height="692" alt="Image" src="https://github.com/user-attachments/assets/62e6c153-d912-43cd-9b25-60d4b275a4b0" />
