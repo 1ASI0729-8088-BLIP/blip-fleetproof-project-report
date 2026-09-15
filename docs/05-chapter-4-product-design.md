@@ -480,7 +480,7 @@ flowchart TD
 
 ## 4.5 Web Applications Prototyping
 
-TODO: Incluir enlace a prototipo interactivo y video de navegación.
+https://www.figma.com/make/LkD3mKP9wjNjnOPTRRzoCt/Create-web-wireframes?t=wjEZRvancvqn8v7q-20&fullscreen=1
 
 ## 4.6 Domain-Driven Software Architecture
 
