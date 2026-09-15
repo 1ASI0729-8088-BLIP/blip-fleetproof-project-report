@@ -437,11 +437,46 @@ flowchart TD
 
 ### 4.4.3 Web Applications Mock-ups
 
-TODO: Insertar mock-ups de Web Application.
+![image](https://hackmd.io/_uploads/SkWNfFEFfl.png)
+
+![image](https://hackmd.io/_uploads/ByKOztEKMl.png)
+
+![image](https://hackmd.io/_uploads/H1j5GFEtfx.png)
+
+![image](https://hackmd.io/_uploads/BkZ6zK4Yzl.png)
+
+![image](https://hackmd.io/_uploads/ByY0fKNYfx.png)
 
 ### 4.4.4 Web Applications User Flow Diagrams
 
-TODO: Insertar user flows con happy path y unhappy paths.
+```mermaid
+flowchart TD
+    A([Inicio: Administrador en Módulo Flota]) --> B["Hacer clic en Importar CSV"]
+    B --> C["Seleccionar archivo local .csv"]
+    C --> D["Subir archivo a la plataforma"]
+    D --> E{"¿Formato y cabeceras<br/>del CSV correctos?"}
+    
+    E -- No --> F["Mostrar error de estructura"]
+    F --> C
+    
+    E -- Sí --> G{"¿Placas cumplen formato<br/>oficial peruano?"}
+    
+    G -- No --> H["Notificar filas con error"]
+    H --> I["Permitir omitir inválidos o corregir"]
+    I --> C
+    
+    G -- Sí --> J["Calcular: Vehículos Actuales + Nuevos"]
+    J --> K{"¿Total <= Límite<br/>del Plan Contratado?"}
+    
+    K -- No --> L["Bloquear importación masiva"]
+    L --> M["Mostrar modal de cuota excedida<br/>Sugerir Upgrade de Plan"]
+    M --> N([Fin: Operación Interrumpida])
+    
+    K -- Sí --> O[("Persistir vehículos en Base de Datos")]
+    O --> P["Actualizar métricas del Dashboard"]
+    P --> Q["Mostrar mensaje de importación exitosa"]
+    Q --> R([Fin: Flota Registrada y Monitoreada])
+```
 
 ## 4.5 Web Applications Prototyping
 
