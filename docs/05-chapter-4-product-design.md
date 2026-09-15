@@ -700,7 +700,170 @@ flowchart TB
 
 ### 4.7.1 Class Diagrams
 
-TODO: Insertar class diagrams por bounded context.
+El diagrama de clases de diseño modela las entidades de dominio, raíces de agregado y métodos de comando organizados estrictamente en los seis Bounded Contexts definidos para el sistema.
+
+```mermaid
+classDiagram
+    %% Estilos de tipos DDD
+    class SubscriptionStatus {
+        <<Enumeration>>
+        Active
+        Cancelled
+        Suspended
+    }
+
+    class SeverityLevel {
+        <<Enumeration>>
+        Low
+        Medium
+        High
+        Critical
+    }
+
+    class AlertStatus {
+        <<Enumeration>>
+        Pending
+        Acknowledged
+        Resolved
+    }
+
+    %% 1. User Management Context
+    class User {
+        <<AggregateRoot>>
+        +Guid Id
+        +string FullName
+        +string Email
+        +string PasswordHash
+        +string UserRole
+        +DateTime CreatedAt
+        +CreateUserAccount() void
+        +LogIntoPlatform() bool
+    }
+
+    %% 2. Subscription Management Context
+    class Subscription {
+        <<AggregateRoot>>
+        +Guid Id
+        +Guid UserId
+        +string ServiceType
+        +SubscriptionStatus Status
+        +DateTime StartDate
+        +DateTime EndDate
+        +SelectMonitoringService() void
+        +SelectFleetService() void
+        +SubmitPayment() void
+        +ActivateSubscription() void
+    }
+
+    %% 3. Vehicle Information Context
+    class Vehicle {
+        <<AggregateRoot>>
+        +Guid Id
+        +string LicensePlate
+        +string Brand
+        +string Model
+        +int Year
+        +bool IsValidPlate
+        +EnterLicensePlate() void
+        +RequestVehicleConsultation() void
+        +ValidatePlateRequirements() bool
+        +RetryQueryIfUnavailable() void
+    }
+
+    %% 4. Report Management Context
+    class VehicleReport {
+        <<AggregateRoot>>
+        +Guid Id
+        +Guid VehicleId
+        +Guid RequestedByUserId
+        +DateTime GeneratedAt
+        +string ReportType
+        +string SunarpData
+        +string TrafficViolationsData
+        +RequestCompleteReport() void
+        +RequestTrafficViolationsReport() void
+        +RequestSunarpReport() void
+        +GenerateReportWhenDataAvailable() void
+        +ReviewGeneratedReport() void
+    }
+
+    %% 5. Vehicle Monitoring Context
+    class VehicleMonitoring {
+        <<AggregateRoot>>
+        +Guid Id
+        +Guid VehicleId
+        +Guid SubscribedUserId
+        +bool IsActive
+        +DateTime LastCheckDate
+        +DateTime NextScheduledCheck
+        +RegisterVehicleForMonitoring() void
+        +SchedulePeriodicChecks() void
+        +CheckVehicleChanges() void
+        +DetectVehicleChange() bool
+        +GenerateAlert() void
+    }
+
+    class MonitoringAlert {
+        <<Entity>>
+        +Guid Id
+        +Guid MonitoringId
+        +string ChangeDetail
+        +AlertStatus Status
+        +DateTime CreatedAt
+        +ReviewAlert() void
+    }
+
+    %% 6. Fleet Management Context
+    class Fleet {
+        <<AggregateRoot>>
+        +Guid Id
+        +Guid ManagerUserId
+        +string FleetName
+        +DateTime RegisteredAt
+        +RegisterFleet() void
+        +AssignVehicleToFleet(vehicleId: Guid) void
+        +AssignResponsiblePerson(personId: Guid) void
+        +CheckFleetStatus() void
+        +IdentifyFleetRisk() bool
+        +NotifyResponsiblePerson() void
+    }
+
+    class FleetVehicleAssignment {
+        <<Entity>>
+        +Guid Id
+        +Guid FleetId
+        +Guid VehicleId
+        +Guid ResponsiblePersonId
+        +DateTime AssignedAt
+        +string CurrentRiskLevel
+    }
+
+    %% Relaciones entre Contextos y Agregados
+    User "1" --> "0..*" Subscription : contrata
+    User "1" --> "0..*" VehicleReport : solicita
+    User "1" --> "0..*" Fleet : administra
+
+    Subscription "1" ..> "1" VehicleReport : habilita tras pago
+    Subscription "1" ..> "1" VehicleMonitoring : activa servicio
+    Subscription "1" ..> "1" Fleet : habilita gestion
+
+    Vehicle "1" <-- "1" VehicleReport : extrae datos de
+    Vehicle "1" <-- "1" VehicleMonitoring : monitorea cambios de
+    Vehicle "1" <-- "0..*" FleetVehicleAssignment : es asignado a
+
+    VehicleMonitoring "1" *-- "0..*" MonitoringAlert : genera
+    Fleet "1" *-- "0..*" FleetVehicleAssignment : contiene
+```
+
+**Explicación, decisiones y relación con otros artefactos:**
+El diagrama modela exactamente los 6 Bounded Contexts y sus respectivos comandos del sistema:
+* **User Management:** La raíz de agregado `User` centraliza la autenticación y la gestión de identidad.
+* **Subscription Management:** La entidad `Subscription` gestiona la activación de servicios (monitoreo o flota) tras validar pagos con Taypi.
+* **Vehicle Information:** La entidad `Vehicle` aplica las políticas de validación previa de placa y contiene la lógica de reintento ante fuentes oficiales no disponibles.
+* **Report Management:** `VehicleReport` procesa reportes completos, de tránsito o SUNARP, aplicando la política de emitir el documento solo cuando los datos se encuentran consolidados.
+* **Vehicle Monitoring:** `VehicleMonitoring` maneja el cronograma de revisiones periódicas, la detección de discrepancias entre snapshots y la creación de `MonitoringAlert`.
+* **Fleet Management:** `Fleet` y `FleetVehicleAssignment` agrupan las unidades vehiculares, delegan la supervisión a una persona responsable y ejecutan la política de notificación inmediata ante la identificación de riesgos en la flota.
+
 
 ## 4.8 Database Design
 
