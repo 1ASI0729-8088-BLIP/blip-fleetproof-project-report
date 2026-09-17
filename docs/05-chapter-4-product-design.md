@@ -354,7 +354,7 @@ Se presentan los mock-ups de FleetProof adaptados a dispositivos móviles, donde
 
 ### 4.4.1 Web Applications Wireframes
 
-TODO: Insertar wireframes de Web Application.
+![image](https://hackmd.io/_uploads/rJ1rJ0_Ffe.png)
 
 ### 4.4.2 Web Applications Wireflow Diagrams
 
