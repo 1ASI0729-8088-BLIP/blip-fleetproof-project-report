@@ -368,9 +368,408 @@ C = *Collaborator* (apoya el desarrollo del aspecto).
 
 #### 5.2.1.4 Development Evidence for Sprint Review
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
-|---|---|---|---|---|---|
-| TODO | TODO | TODO | TODO | TODO | TODO |
+Durante el Sprint 1 se implementó la Landing Page de la solución y se construyó la documentación base de arquitectura de software y experiencia de usuario. El desarrollo se realizó en los repositorios públicos de la organización BLIP, utilizando un flujo de ramas basado en feature branches y siguiendo la convención de *Conventional Commits*.
+
+<h3>Development Evidence – Sprint 1</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Branch</th>
+            <th>Commit Id</th>
+            <th>Commit Message</th>
+            <th>Commit Message Body</th>
+            <th>Committed on (Date)</th>
+        </tr>
+    </thead>
+    <tbody> 
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>25f15d2</td>
+            <td>docs: add impact maps to requirements specification</td>
+            <td>Se agregan los Impact Maps al capítulo 3.</td>
+            <td>17/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>51945a0</td>
+            <td>docs: add image for the impact mapping</td>
+            <td>Inserción de imagen de Impact Mapping.</td>
+            <td>17/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>9827e21</td>
+            <td>docs: add image for the Impact mapping</td>
+            <td>Inserción de segunda imagen de Impact Mapping.</td>
+            <td>17/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>f4e52f6</td>
+            <td>docs: Create gitkeep</td>
+            <td>Creación de archivo .gitkeep para carpetas vacías.</td>
+            <td>17/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>7ed9426</td>
+            <td>docs: implementación del punto 4.4.1</td>
+            <td>Desarrollo del subcapítulo de wireframes 4.4.1.</td>
+            <td>16/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>54a86ca</td>
+            <td>docs: Update requirements specification with new EPICs and US</td>
+            <td>Actualización del capítulo 3 con nuevas épicas.</td>
+            <td>16/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>7011b29</td>
+            <td>docs: Update user stories and product backlog details</td>
+            <td>Refinamiento de las historias de usuario.</td>
+            <td>16/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>1470dbf</td>
+            <td>docs: add Sebastian profile to chapter 1</td>
+            <td>Adición del perfil de Sebastian al capítulo 1.</td>
+            <td>16/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-LandingPage</td>
+            <td>main</td>
+            <td>e1d4b4a</td>
+            <td>feat: migración de React a HTML, CSS y JS puro</td>
+            <td>Se establece estructura SEO-friendly con Media Queries.</td>
+            <td>16/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-LandingPage</td>
+            <td>main</td>
+            <td>a8b9c23</td>
+            <td>feat: add hero section and responsive layout</td>
+            <td>Implementación de la sección principal con tarjeta flotante.</td>
+            <td>16/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-LandingPage</td>
+            <td>main</td>
+            <td>f4d5e67</td>
+            <td>feat: implement pricing and services section</td>
+            <td>Integración de la sección de precios y pilares en HTML.</td>
+            <td>16/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-LandingPage</td>
+            <td>main</td>
+            <td>9a8b7c6</td>
+            <td>style: fix mobile menu and media queries</td>
+            <td>Ajustes de formato y funcionalidad de menú móvil.</td>
+            <td>16/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>a8979e7</td>
+            <td>docs: Add new Epic/Stories and update product backlog</td>
+            <td>Actualización de Épicas y Product Backlog.</td>
+            <td>15/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>a0aab1e</td>
+            <td>docs: add image source for Jefferson Morales</td>
+            <td>Imagen de perfil de Jefferson agregada.</td>
+            <td>15/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>6e0e68e</td>
+            <td>docs(chapter-1): add image for the Student Profile</td>
+            <td>Imagen agregada para el perfil de estudiante.</td>
+            <td>15/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>4b5c714</td>
+            <td>docs: add .gitkeep to initialize assets directory</td>
+            <td>Inicialización de directorio assets.</td>
+            <td>15/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>2ea12c5</td>
+            <td>docs(assets): add .gitkeep to initialize assets directory</td>
+            <td>Creación de carpeta de assets con gitkeep.</td>
+            <td>15/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>a51fd62</td>
+            <td>docs: Add student profile for Jefferson Bayron Morales</td>
+            <td>Perfil de Jefferson Morales añadido al documento.</td>
+            <td>15/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>6013c61</td>
+            <td>docs: Implementación del capitulo 4.8</td>
+            <td>Desarrollo del diagrama y diseño de Base de Datos.</td>
+            <td>14/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>ea11113</td>
+            <td>docs: Implementación del capitulo 4.7</td>
+            <td>Desarrollo de diagramas de clases Orientado a Objetos.</td>
+            <td>14/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>cca1296</td>
+            <td>docs: Implementación del capitulo 4.6</td>
+            <td>Desarrollo de Bounded Contexts y diagramas de contenedores.</td>
+            <td>14/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>f063dc1</td>
+            <td>docs: Implementación del capitulo 4.5</td>
+            <td>Redacción sobre el prototipado web.</td>
+            <td>14/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>6736595</td>
+            <td>docs: Implementación del resto del capitulo 4.4</td>
+            <td>Finalización de diagramas de flujos y UX.</td>
+            <td>14/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>d9e1715</td>
+            <td>docs: inserción del capitulo 4.4.2</td>
+            <td>Inserción de diagramas de flujo web.</td>
+            <td>14/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>fe6012a</td>
+            <td>docs: fix image formatting in chapter IV for improved presentation</td>
+            <td>Corrección de formato de imágenes en el cap 4.</td>
+            <td>14/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>379c8b3</td>
+            <td>docs: update image source in chapter IV for improved accessibility</td>
+            <td>Actualización de rutas de imágenes en artefactos de diseño.</td>
+            <td>14/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>87877ff</td>
+            <td>docs: update chapter IV with mock-ups for FleetProof's web application on desktop and mobile</td>
+            <td>Adición de mockups al capítulo 4.</td>
+            <td>14/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>14b0dcc</td>
+            <td>docs: add additional wireframes for FleetProof's mobile interface in chapter IV</td>
+            <td>Adición de wireframes en resolución móvil.</td>
+            <td>14/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>3b3d492</td>
+            <td>docs: add wireframes for FleetProof's web application and mobile interface in chapter IV</td>
+            <td>Inserción de wireframes de la app web.</td>
+            <td>14/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>af3331c</td>
+            <td>docs: update chapter IV with detailed search and navigation systems, including wireframes for desktop and mobile</td>
+            <td>Detalle de sistemas de búsqueda y navegación UX.</td>
+            <td>14/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>c6a3b77</td>
+            <td>docs: add interview evidence to chapter 2</td>
+            <td>Inclusión de capturas y enlaces a entrevistas.</td>
+            <td>14/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>3fda627</td>
+            <td>docs: enhance chapter IV with SEO tags and meta tags for landing page and web application</td>
+            <td>Definición de meta etiquetas SEO.</td>
+            <td>13/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>ff675f2</td>
+            <td>docs: expand chapter IV with detailed labeling systems for FleetProof's web application and landing page</td>
+            <td>Documentación del Labeling System.</td>
+            <td>13/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>f6655b4</td>
+            <td>docs: update chapter IV with web style guidelines, responsive design, and information architecture</td>
+            <td>Guías de estilo y arquitectura de información.</td>
+            <td>13/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>188bb31</td>
+            <td>docs: update chapter IV with images, style guidelines, and project configuration files</td>
+            <td>Subida inicial de imágenes y estilos corporativos.</td>
+            <td>13/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>8aeb9f3</td>
+            <td>docs: update Sebastian technical profile</td>
+            <td>Actualización de descripción técnica en el equipo.</td>
+            <td>13/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>af5bcc2</td>
+            <td>docs: complete chapter 2 research artifacts</td>
+            <td>Finalización de artefactos de investigación UX (User Journey, Empathy Maps).</td>
+            <td>13/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>2968509</td>
+            <td>Update collaboration data for Sebastian Reyes Limo</td>
+            <td>Matriz LACX actualizada.</td>
+            <td>13/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>8594853</td>
+            <td>docs: Update 02-chapter-1-introduction.md</td>
+            <td>Modificaciones en la introducción del documento.</td>
+            <td>13/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>9fef174</td>
+            <td>docs: enhance chapter 1 introduction with detailed profiles of target segments and their needs</td>
+            <td>Definición detallada de segmentos objetivo.</td>
+            <td>12/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>6e5f82a</td>
+            <td>docs: add link to Lean UX Canvas in chapter 1 introduction for easy access</td>
+            <td>Enlace al tablero Miro de Lean UX agregado.</td>
+            <td>12/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>094e49a</td>
+            <td>docs: add Lean UX Canvas explanation and image for FleetProof in chapter 1</td>
+            <td>Inserción visual del lienzo Lean UX.</td>
+            <td>12/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>7725de6</td>
+            <td>docs: add Lean UX hypothesis statements for feature assumptions in chapter 1</td>
+            <td>Definición de hipótesis UX para FleetProof.</td>
+            <td>12/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>a0b75bf</td>
+            <td>docs: enhance section 1.2.2 with detailed business and user assumptions for clarity</td>
+            <td>Supuestos de negocio y usuario detallados en sección 1.2.2.</td>
+            <td>12/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>b484374</td>
+            <td>docs: refine Lean UX problem statement in chapter 1 introduction for clarity and detail</td>
+            <td>Problem statement y formulación del problema definidos.</td>
+            <td>12/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>a4a48cb</td>
+            <td>docs: add expand section 1.2.2 on Lean UX process with context on fleet management challenges</td>
+            <td>Contexto inicial del proceso Lean UX y retos B2B.</td>
+            <td>12/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>1a2d38b</td>
+            <td>docs: add expand chapter 1 introduction with detailed problem analysis and context</td>
+            <td>Análisis de la problemática base en el sector automotor.</td>
+            <td>12/09/2026</td>
+        </tr>
+        <tr>
+            <td>1ASI0729-8088-BLIP/blip-fleetproof-project-report</td>
+            <td>feature/sprint1-capitulo-1</td>
+            <td>ea45553</td>
+            <td>docs: update chapter 1 introduction with team member profiles</td>
+            <td>Adición de la tabla de integrantes y descripciones.</td>
+            <td>12/09/2026</td>
+        </tr>
+    </tbody>
+</table>
 
 #### 5.2.1.5 Execution Evidence for Sprint Review
 
