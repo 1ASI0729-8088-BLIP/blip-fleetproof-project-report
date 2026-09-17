@@ -12,6 +12,17 @@
 |<img src="assets/chapter-1/sebastian-reyes.png" width="500"/>|**Reyes Limo, Sebastian \- U202311656** <br> Estudiante de la carrera de Ingeniería de Software, cursando el quinto ciclo de la carrera. Me gusta trabajar en equipo, soy puntual, responsable, empático y me gusta aprender tecnologías nuevas. Orgulloso VibeCoder.|
 |                                       <img src="" width="500"/>                                        |                                                                                                                                                                                                                                                                                                                  | 
 
+TODO: Completar propósito, visión, valores, segmento de mercado y enfoque innovador.
+
+### 1.1.2 Perfiles de integrantes del equipo
+
+| Integrante | Código | Carrera | Perfil técnico | Aporte al equipo |
+|---|---|---|---|---|
+| <img src="assets/members/sebastian-reyes.png" alt="Sebastian Reyes Limo" width="180"><br>Reyes Limo, Sebastian | u202311656 | Ingeniería de Software | Estudiante de la carrera de Ingeniería de Software, cursando el quinto ciclo. Me gusta trabajar en equipo; soy puntual, responsable, empático y me gusta aprender tecnologías nuevas. Orgulloso VibeCoder. | Technical Lead, SCM and Rubric Owner |
+| Quintanilla Gonzalo | U20201B253 | Ingeniería de Software | TODO | Lean UX Owner |
+| Morales Jefferson | TODO | Ingeniería de Software | TODO | UX Research Owner |
+| Gómez De La Torre Rodrigo | TODO | Ingeniería de Software | TODO | Requirements Owner |
+| Gorbeña Eduardo | TODO | Ingeniería de Software | TODO | Product Design and Landing Page Owner |
 
 ## 1.2 Solution Profile
 
