@@ -4,6 +4,22 @@
 
 ### 1.1.1 Descripción de la Startup
 
+**BLIP** es una startup tecnológica conformada por estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC). Nuestro enfoque principal es desarrollar soluciones digitales innovadoras que resuelvan problemas reales de gestión y acceso a la información en sectores con alta fricción operativa.
+
+Para nuestro primer gran proyecto, hemos diseñado **FleetProof**, una plataforma orientada a centralizar y optimizar la investigación del historial vehicular en el Perú.
+
+* **Propósito:** Facilitar la gestión y el acceso transparente a la información vehicular, brindando seguridad, confianza y eficiencia a los usuarios en sus operaciones diarias, eliminando la dependencia de procesos manuales y hojas de cálculo.
+* **Visión:** Convertirnos en la startup líder a nivel nacional en soluciones de trazabilidad y monitoreo de activos móviles, transformando la manera en que empresas y particulares interactúan con la información de sus vehículos mediante un ecosistema 100% digital.
+* **Valores:**
+    * **Transparencia:** Manejo claro y confiable de la información.
+    * **Innovación:** Uso de la tecnología para centralizar datos históricamente dispersos.
+    * **Trabajo en equipo:** Colaboración activa y comunicación constante entre los miembros para alcanzar la excelencia técnica.
+    * **Responsabilidad:** Compromiso con la seguridad de los datos de nuestros usuarios.
+* **Segmento de Mercado:** Nuestro mercado abarca dos segmentos principales: empresas (B2B) que administran flotas vehiculares pequeñas y medianas, y usuarios particulares (B2C) como propietarios o compradores de vehículos usados que necesitan verificar el estado legal y técnico de una unidad.
+* **Enfoque Innovador:** A diferencia de las consultas tradicionales que requieren visitar múltiples fuentes gubernamentales o privadas, BLIP propone un modelo unificado. Mediante herramientas visuales como semáforos de estado, alertas tempranas de vencimientos y checklists automatizados, reducimos el tiempo de investigación y prevenimos multas o penalizaciones por falta de trazabilidad.
+
+### 1.1.2 Perfiles de integrantes del equipo
+
 |                                                Miembro                                                 |                                                                                                                                                   Descripción                                                                                                                                                    |
 |:------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | <img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789264840/foto_stbi6t.jpg" width="500"/> |**Gonzalo Samuel, Quintanilla Pozo \- U202315007** <br>  Soy estudiante de la carrera de Ingeniería de Software en la UPC y tengo 21 años, como compañero me gusta apoyar y tomar iniciativa en trabajos grupales. Me especializo en los lenguajes CSS, Java y Python. Tengo experiencia desarrollando páginas web.|
@@ -11,18 +27,6 @@
 |<img src="assets/chapter-1/Jefferson_Morales_Foto.jpg" width="500"/>|**Morales Yapuchura, Jefferson Bayron \- U202316049** <br> Estudiante de Ingeniería de Software con un enfoque proactivo en la resolución de problemas y el desarrollo de soluciones escalables. Me defino como un entusiasta del aprendizaje continuo, lo que me permite navegar con agilidad entre lenguajes y frameworks emergentes.                                                                                                                                                                                                                                                                                                                 | 
 |<img src="assets/chapter-1/sebastian-reyes.png" width="500"/>|**Reyes Limo, Sebastian \- U202311656** <br> Estudiante de la carrera de Ingeniería de Software, cursando el quinto ciclo de la carrera. Me gusta trabajar en equipo, soy puntual, responsable, empático y me gusta aprender tecnologías nuevas. Orgulloso VibeCoder.|
 |                                       <img src="" width="500"/>                                        |                                                                                                                                                                                                                                                                                                                  | 
-
-TODO: Completar propósito, visión, valores, segmento de mercado y enfoque innovador.
-
-### 1.1.2 Perfiles de integrantes del equipo
-
-| Integrante | Código | Carrera | Perfil técnico | Aporte al equipo |
-|---|---|---|---|---|
-| <img src="assets/members/sebastian-reyes.png" alt="Sebastian Reyes Limo" width="180"><br>Reyes Limo, Sebastian | u202311656 | Ingeniería de Software | Estudiante de la carrera de Ingeniería de Software, cursando el quinto ciclo. Me gusta trabajar en equipo; soy puntual, responsable, empático y me gusta aprender tecnologías nuevas. Orgulloso VibeCoder. | Technical Lead, SCM and Rubric Owner |
-| Quintanilla Gonzalo | U20201B253 | Ingeniería de Software | TODO | Lean UX Owner |
-| Morales Jefferson | TODO | Ingeniería de Software | TODO | UX Research Owner |
-| Gómez De La Torre Rodrigo | TODO | Ingeniería de Software | TODO | Requirements Owner |
-| Gorbeña Eduardo | TODO | Ingeniería de Software | TODO | Product Design and Landing Page Owner |
 
 ## 1.2 Solution Profile
 
