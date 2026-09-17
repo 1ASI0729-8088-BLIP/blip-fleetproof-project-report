@@ -33,5 +33,4 @@
 | 6 | US06 | Carga masiva mediante CSV | Como administrador de flota, deseo importar un archivo CSV con placas para registrar mis vehículos masivamente sin esfuerzo manual. | 8 |
 | 7 | US07 | Comparación histórica de Snapshots| Como analista documentario, deseo que el sistema compare dos estados históricos para detectar nueva información de forma inmediata. | 8 |
 
-URL público del Product Backlog: TODO
 
