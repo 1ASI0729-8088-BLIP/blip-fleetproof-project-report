@@ -46,7 +46,7 @@
 
 | Código | Apellidos y nombres |
 |---|---|
-| Pendiente | Reyes Limo, Sebastian |
+| u202311656 | Reyes Limo, Sebastian |
 | Pendiente | Quintanilla, Gonzalo |
 | Pendiente | Gómez De La Torre, Rodrigo |
 | Pendiente | Morales, Jefferson |
@@ -68,7 +68,7 @@
 
 | Código | Apellidos y nombres | Carrera | GitHub username | Rol AV1 |
 |---|---|---|---|---|
-| Pendiente | Reyes Limo, Sebastian | Ingeniería de Software | llegastian11 | Technical Lead, SCM and Rubric Owner |
+| u202311656 | Reyes Limo, Sebastian | Ingeniería de Software | llegastian11 | Technical Lead, SCM and Rubric Owner |
 | Pendiente | Quintanilla, Gonzalo | Ingeniería de Software | Pendiente | Lean UX Owner |
 | Pendiente | Gómez De La Torre, Rodrigo | Ingeniería de Software | Pendiente | Requirements Owner |
 | Pendiente | Morales, Jefferson | Ingeniería de Software | Pendiente | UX Research Owner |
