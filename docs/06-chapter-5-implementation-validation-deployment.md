@@ -773,16 +773,37 @@ Durante el Sprint 1 se implementó la Landing Page de la solución y se construy
 
 #### 5.2.1.5 Execution Evidence for Sprint Review
 
-TODO: Incluir screenshots de Landing Page desplegada y video de navegación.
+Durante el **Sprint 1** se implementó la Landing Page de la plataforma FleetProof, cumpliendo con los objetivos definidos en el Sprint Backlog.
+La Landing Page constituye el primer punto de interacción con los usuarios, mostrando de forma clara los valores de la plataforma, los servicios ofrecidos, el perfil de la startup y los planes de suscripción disponibles.
+
+El desarrollo se centró en:
+
+* Diseño responsive y navegación entre secciones.
+* Secciones implementadas: *Hero, Entidades, Servicios, Nosotros, Precios, Contacto*.
+* Formulario de contacto funcional.
+
+A continuación, se presentan capturas de las principales vistas desarrolladas:
+
+<img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789670193/Captura_de_pantalla_2026-09-17_133618_ncpfwl.png" alt="inicio" width="800">
+
+<br>
+
+*Figura 5.1. Vista principal (Hero) de la Landing Page en versión de escritorio.*
+
+<img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789670267/Captura_de_pantalla_2026-09-17_133728_ouwkcw.png" alt="inicio" width="800">
+<br>
+
+*Figura 5.2. Vista de las secciones de Servicios y Precios de la plataforma.*
+
+<img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789670341/Captura_de_pantalla_2026-09-17_133839_nphvm6.png" alt="inicio" width="800">
+<br>
+
+*Figura 5.3. Vista adaptable para dispositivos móviles con el diseño responsivo aplicado.*
+
 
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
 
-Para AV1, los Web Services se registran como planificación técnica si todavía no forman parte del alcance implementado.
-
-| Endpoint | HTTP Verb | Description | Status | Evidence |
-|---|---|---|---|---|
-| `/api/v1/plans` | GET | List plans | Planned | TODO |
-| `/api/v1/report-requests` | POST | Create report request | Planned | TODO |
+Durante el Sprint 1, el alcance principal fue la implementación de la Landing Page, por lo que no se desarrollaron servicios de backend asociados a la lógica de negocio. Sin embargo, se dejó preparado el repositorio de Web Services con estructura inicial de documentación en OpenAPI/Swagger, lo que permitirá en futuros sprints integrar endpoints de autenticación, consulta de información vehicular, generación de reportes y gestión de flotas.
 
 #### 5.2.1.7 Software Deployment Evidence for Sprint Review
 
