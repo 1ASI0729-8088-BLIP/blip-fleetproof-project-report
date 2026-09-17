@@ -196,41 +196,175 @@ Ahora con la Landing Page desplegada, cada vez que se realize un push en la rama
 ## 5.2 Landing Page, Services & Applications Implementation
 
 ### 5.2.1 Sprint 1
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Universidad Peruana de Ciencias Aplicadas" width="90">
 
 #### 5.2.1.1 Sprint Planning 1
 
-| Campo | Valor |
-|---|---|
 | Sprint # | Sprint 1 |
-| Date | TODO |
-| Time | TODO |
-| Location | TODO |
-| Prepared By | Reyes Limo Sebastian |
-| Attendees | Reyes Limo Sebastian / Quintanilla Gonzalo / Morales Jefferson / Gómez De La Torre Rodrigo / Gorbeña Eduardo |
-| Sprint 1 Goal | Our focus is on presenting FleetProof's value proposition and segment-specific calls to action through the first deployed Landing Page. We believe it delivers clarity to fleet companies and vehicle owners. This will be confirmed when visitors can understand the product and access the corresponding call-to-action for their segment. |
-| Sprint 1 Velocity | TODO |
-| Sum of Story Points | TODO |
+|---|---|
+| **Sprint planning background** | |
+| Date | 2026/09/16 |
+| Time | 5:00 PM |
+| Location | Llamada grupal en la plataforma Discord |
+| Prepared By | Sebastian Reyes Limo |
+| Attendees (to planning meeting) | Sebastian Reyes Limo, Gonzalo Quintanilla, Jefferson Morales, Rodrigo Gómez De La Torre y Eduardo Gorbeña |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | Nuestro enfoque está en presentar una landing page que muestre todas las funcionalidades y características de FleetProof a los visitantes.<br>Creemos que esto generará una sólida primera impresión sobre qué es FleetProof para nuestros segmentos objetivo.<br>Esto se confirmará cuando los usuarios accedan a la landing page y naveguen por sus secciones. |
+| Sprint 1 Velocity | 21 |
+| Sum of story points | 21 |
 
 #### 5.2.1.2 Aspect Leaders and Collaborators
 
-| Team Member | GitHub Username | SCM and Rubric | Lean UX | UX Research | Requirements | Product Design and Landing Page |
-|---|---|---|---|---|---|---|
-| Reyes Limo Sebastian | llegastian11 | L | C | C | C | C |
-| Quintanilla Gonzalo | Pendiente | C | L | C | C | C |
-| Morales Jefferson | TODO | C | C | L | C | C |
-| Gómez De La Torre Rodrigo | TODO | C | C | C | L | C |
-| Gorbeña Eduardo | TODO | C | C | C | C | L |
+Ahora presentaremos nuestro LACX (Leadership-and-Collaboration Matrix) que nos ayudará a saber quién lidera y quién colabora en cada aspecto de este primer sprint.
+Los aspectos que tomamos en cuenta para este primer sprint fueron los features de nuestra Landing Page.
+
+| Team Member Last Name, First Name | GitHub Username | Hero L/C | About us L/C | Benefits L/C | Pricing L/C | Contact L/C | Footer L/C |
+|---|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Reyes Limo Sebastian** | llegastian11 | C | C | C | C | L | C |
+| **Quintanilla Gonzalo** | GoldQP | L | C | C | C | C | C |
+| **Morales Jefferson** | Fenfito | C | L | C | C | C | C |
+| **Gómez De La Torre Rodrigo** | rod670 | C | C | C | L | C | C |
+| **Gorbeña Eduardo** | EduardooGV | C | C | L | C | C | L |
+
+**Nota.** L = *Leader* (responsable principal del aspecto).
+C = *Collaborator* (apoya el desarrollo del aspecto).
 
 #### 5.2.1.3 Sprint Backlog 1
 
-| Sprint # | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
-|---|---|---|---|---|---|---:|---|---|
-| Sprint 1 | US001 | View value proposition | T001 | Draft Landing Page content | Redactar propuesta de valor, segmentos y beneficios. | 2 | Gorbeña Eduardo | To-do |
-| Sprint 1 | US002 | Fleet monitoring CTA | T002 | Implement fleet CTA | Crear call-to-action hacia flujo empresarial. | 2 | Gorbeña Eduardo | To-do |
-| Sprint 1 | US003 | Vehicle report CTA | T003 | Implement vehicle CTA | Crear call-to-action hacia flujo particular. | 2 | Gorbeña Eduardo | To-do |
-| Sprint 1 | US004 | Compare plans | T004 | Add plan comparison | Presentar tres planes con límites. | 3 | Gómez De La Torre Rodrigo | To-do |
-| Sprint 1 | US005 | View legal pages | T005 | Add legal links | Crear Terms and Conditions y Privacy Policy. | 2 | Reyes Limo Sebastian | To-do |
+<table>
+    <tr>
+        <td>Sprint #</td>
+        <td colspan="7">Sprint 1</td>
+    </tr>
+    <tr>
+        <td colspan="2">User Story</td>
+        <td colspan="2">Work-Item / Task</td>
+        <td>Description</td>
+        <td>Estimation (Hours)</td>
+        <td>Assigned To</td>
+        <td>Status (To-do / In-Process / To-Review / Done)</td>
+    </tr>
+    <tr>
+        <td>Id</td>
+        <td>Title</td>
+        <td>Id</td>
+        <td>Title</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>US01</td>
+        <td>Presentación de propuesta para flotas</td>
+        <td>T1</td>
+        <td>Diseñar estructura de la página principal</td>
+        <td>Crear wireframe simple con encabezado, Hero section y pie de página de FleetProof.</td>
+        <td>4</td>
+        <td>Equipo UX</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US01</td>
+        <td>Presentación de propuesta para flotas</td>
+        <td>T2</td>
+        <td>Implementar página principal (Hero)</td>
+        <td>Desarrollar HTML/CSS base de la página principal aplicando diseño Responsive.</td>
+        <td>6</td>
+        <td>Dev Front</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US01</td>
+        <td>Presentación de propuesta para flotas</td>
+        <td>T3</td>
+        <td>Redactar sección de Servicios</td>
+        <td>Elaborar contenido con los pilares clave de la plataforma (Checklist, Semáforo, Alertas).</td>
+        <td>2</td>
+        <td>PO/Equipo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US01</td>
+        <td>Presentación de propuesta para flotas</td>
+        <td>T4</td>
+        <td>Implementar sección de Servicios</td>
+        <td>Codificar la sección en la landing page usando CSS Grid y Flexbox.</td>
+        <td>4</td>
+        <td>Dev Front</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US02</td>
+        <td>Beneficios para usuarios particulares</td>
+        <td>T5</td>
+        <td>Diseñar sección de Nosotros</td>
+        <td>Definir estructura visual del equipo fundador y beneficios del Startup Profile.</td>
+        <td>3</td>
+        <td>Equipo UX</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US02</td>
+        <td>Beneficios para usuarios particulares</td>
+        <td>T6</td>
+        <td>Implementar sección de Nosotros</td>
+        <td>Programar en frontend con estructura responsiva e imágenes adaptables.</td>
+        <td>5</td>
+        <td>Dev Front</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US01</td>
+        <td>Presentación de propuesta para flotas</td>
+        <td>T7</td>
+        <td>Diseñar sección de Planes</td>
+        <td>Diseñar estructura de planes de suscripción con beneficios y precios diferenciados.</td>
+        <td>3</td>
+        <td>Equipo UX</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US01</td>
+        <td>Presentación de propuesta para flotas</td>
+        <td>T8</td>
+        <td>Implementar sección de Planes</td>
+        <td>Codificar sección de Pricing en HTML y CSS con diseño corporativo.</td>
+        <td>5</td>
+        <td>Dev Front</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US01</td>
+        <td>Presentación de propuesta para flotas</td>
+        <td>T9</td>
+        <td>Redactar información de Contacto</td>
+        <td>Crear contenido con correo corporativo, sedes y canales de WhatsApp.</td>
+        <td>2</td>
+        <td>PO/Equipo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US01</td>
+        <td>Presentación de propuesta para flotas</td>
+        <td>T10</td>
+        <td>Implementar sección de Contacto</td>
+        <td>Agregar formulario funcional simulado con validaciones básicas en JavaScript.</td>
+        <td>4</td>
+        <td>Dev Front</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>T11</td>
+        <td>Configuración de hosting/despliegue</td>
+        <td>Preparar entorno y publicar el Landing Page de FleetProof en Netlify.</td>
+        <td>6</td>
+        <td>DevOps</td>
+        <td>Done</td>
+    </tr>
+</table>
+
 
 #### 5.2.1.4 Development Evidence for Sprint Review
 
