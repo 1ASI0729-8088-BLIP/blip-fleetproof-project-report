@@ -827,7 +827,15 @@ A continuación, se presenta la evidencia del despliegue exitoso en la plataform
 
 #### 5.2.1.8 Team Collaboration Insights during Sprint
 
-TODO: Incluir capturas de commits, Pull Requests, merges y contributors.
+Durante el Sprint 1, el equipo trabajó siguiendo la estrategia **GitFlow**, creando ramas específicas por cada *feature* o entregable de documentación (ejemplo: `feature/sprint1-capitulo-1`, `feature/sprint1-capitulo-2`, `feature/sprint1-capitulo-3`, `feature/sprint1-capitulo-4`, `feature/sprint1-capitulo-5`).
+
+Estas ramas fueron integradas progresivamente en `develop` mediante Pull Requests y, tras la validación y resolución de conflictos correspondiente, se preparó el código consolidado para su integración en la rama principal `main`.
+
+A continuación se presentan los **analíticos de GitHub**, que muestran la participación del equipo en commits, ramas y merges durante el Sprint. Estas evidencias confirman la colaboración activa de todos los miembros:
+
+<img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789677063/Captura_de_pantalla_2026-09-17_153043_hqzs5r.png" alt="inicio" width="800">
+<img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789677175/Captura_de_pantalla_2026-09-17_153236_uvfxjo.png" alt="inicio" width="800">
+
 
 ## 5.3 Validation Interviews
 
