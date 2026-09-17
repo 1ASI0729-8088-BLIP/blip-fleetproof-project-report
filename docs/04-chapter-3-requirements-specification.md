@@ -17,7 +17,9 @@
 
 ## 3.2 Impact Mapping
 
-TODO: Crear Impact Map en UXPressia con Business Goals SMART, Actors, Impacts, Deliverables y User Stories.
+<img src="assets/Impact map 1.png" />
+
+<img src="assets/Impact map 2.png" />
 
 ## 3.3 Product Backlog
 
