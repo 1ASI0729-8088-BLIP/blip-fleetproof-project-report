@@ -162,11 +162,41 @@ En caso de usar Gherkin (para especificaciones o pruebas de los escenarios descr
 
 ### 5.1.4 Software Deployment Configuration
 
-TODO: Especificar configuración de despliegue de Landing Page, Frontend Web Application y Web Services.
+1. **Ingresar a Netlify**<br>
+   Accedemos a la plataforma mediante nuestras credenciales de Github en "Log in with GitHub".
+   <img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789627588/Captura_de_pantalla_2026-09-17_013830_jsr61y.png" alt="inicio" width="800">
+
+2. **Autorizar a Netlify** <br>
+   Damos permisos a Netlify de acceder a nuestra cuenta de GitHub para luego ir a la sección "Sites" y presionar "Add new site". Entonces, le damos a "Import an existing project".
+   <img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789628043/Captura_de_pantalla_2026-09-17_015348_kblafi.png" alt="inicio" width="800">
+
+3. **Escoger tu deploy** <br>
+   En la parte de "Let's deploy your project with..." seleccionamos GitHub.
+   <img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789628214/Captura_de_pantalla_2026-09-17_015637_q2g9g8.png" alt="inicio" width="800">
+
+4. **Escoger tu repositorio** <br>
+   Dado que nuestro repositorio está bajo una organización, la seleccionamos.
+   <img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789628431/Captura_de_pantalla_2026-09-17_020020_uspnlf.png" alt="inicio" width="800">
+
+5. **Configurar el despliegue** <br>
+   Ahora procedemos a configurar el despliegue, colocando el Site Name y seleccionando el Team, también debemos escoger una rama que en este caso será la Main.
+   <img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789628547/Captura_de_pantalla_2026-09-17_020208_tqyiqu.png" alt="inicio" width="800">
+
+6. **Seguir configurando** <br>
+   Seguimos configurando, pero esta vez seleccionando el "Publish directory" colocamos public, para finalmente darle a "Deploy demy-academy".
+   <img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789628631/Captura_de_pantalla_2026-09-17_020333_kaqg4d.png" alt="inicio" width="800">
+
+7. **Despliegue listo** <br>
+   Ahora podemos observar que el deploy está listo y podremos ver el enlace de la web a la landing page recién desplegada.
+   <img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789628688/Captura_de_pantalla_2026-09-17_020436_pvq8li.png" alt="inicio" width="800">
+
+Ahora con la Landing Page desplegada, cada vez que se realize un push en la rama correspondiente, se actualizara automáticamente, de esta manera evitamos repetir los pasos. <br>
+[Link de la Landing Page](https://fleetproof-landingpage.netlify.app/)
 
 ## 5.2 Landing Page, Services & Applications Implementation
 
 ### 5.2.1 Sprint 1
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Universidad Peruana de Ciencias Aplicadas" width="90">
 
 #### 5.2.1.1 Sprint Planning 1
 
