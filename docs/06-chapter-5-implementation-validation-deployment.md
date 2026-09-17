@@ -807,7 +807,23 @@ Durante el Sprint 1, el alcance principal fue la implementación de la Landing P
 
 #### 5.2.1.7 Software Deployment Evidence for Sprint Review
 
-TODO: Incluir URL desplegada, capturas del proveedor y versión `v1.0.0` del Landing Page.
+Durante el Sprint 1, se logró el despliegue exitoso de la Landing Page de FleetProof en un entorno de producción utilizando la plataforma de hosting Netlify. El entorno se encuentra configurado con integración continua (Continuous Deployment), lo que permite que cualquier cambio aprobado y fusionado en la rama `main` del repositorio de GitHub se publique de manera automática.
+
+* **Plataforma de despliegue:** Netlify
+* **Rama de despliegue:** `main`
+* **URL de Producción:** [https://fleetproof-landingpage.netlify.app/](https://fleetproof-landingpage.netlify.app/)
+
+A continuación, se presenta la evidencia del despliegue exitoso en la plataforma:
+
+
+<img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789628688/Captura_de_pantalla_2026-09-17_020436_pvq8li.png" alt="inicio" width="800">
+
+---
+<br>
+
+<img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789670193/Captura_de_pantalla_2026-09-17_133618_ncpfwl.png" alt="inicio" width="800">
+
+**Figura 5.4.** Evidencia de despliegue exitoso en la plataforma Netlify.
 
 #### 5.2.1.8 Team Collaboration Insights during Sprint
 
