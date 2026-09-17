@@ -4,45 +4,161 @@
 
 ### 5.1.1 Software Development Environment Configuration
 
-| Actividad | Herramienta | Propósito | URL |
-|---|---|---|---|
-| Project Management | JetBrains YouTrack / Jira Software / Trello | Gestionar Product Backlog y Sprint Backlog. | TODO |
-| UX Research | UXPressia | Elaborar User Personas, Empathy Maps, Journey Maps e Impact Maps. | https://uxpressia.com |
-| UX/UI Design | Figma | Elaborar wireframes, mock-ups y prototipos. | https://figma.com |
-| Wireflows and User Flows | FigJam / LucidChart / Overflow | Representar flujos de interacción. | TODO |
-| EventStorming | FigJam / LucidChart / Miro | Representar eventos del dominio. | TODO |
-| Architecture Diagrams | Structurizr / LucidChart / PlantUML / Mermaid | Elaborar diagramas C4, UML y database diagrams. | TODO |
-| Version Control | GitHub | Gestionar repositorios, ramas, commits, Pull Requests, merges, tags y releases. | https://github.com/1ASI0729-8088-BLIP |
-| Landing Page Development | HTML5, CSS3, JavaScript | Desarrollar Landing Page. | TODO |
-| Frontend Development | Angular Framework, TypeScript, Angular Material | Desarrollar Frontend Web Application. | TODO |
-| Backend Development | Spring Boot, Spring Data JPA, Java | Desarrollar RESTful Web Services con Java. | TODO |
-| Relational DBMS | MySQL Server / PostgreSQL | Persistir información relacional del producto. | TODO |
-| API Documentation | Swagger / OpenAPI | Documentar Web Services. | TODO |
+En esta sección se describen las herramientas de software seleccionadas para dar soporte a las distintas fases del ciclo de vida del producto digital. Se incluyen sus nombres, objetivos específicos dentro del proyecto y los enlaces de acceso o descarga, diferenciando entre soluciones SaaS y aplicaciones instalables.
+* **Gestión de Proyectos y Tareas**
 
+| Herramienta | Uso principal | Enlace / Ruta de Acceso |
+|---|---|---|
+| **Jira Software** | Organización de tareas y entregables mediante tableros ágiles, tanto a nivel individual como por módulo. | [https://jira.atlassian.com](https://jira.atlassian.com) |
+| **GitHub Projects** | Seguimiento de proyectos con enfoque en historias de usuario, issues y Pull Requests en repositorios. | [https://github.com/features/issues](https://github.com/features/issues) |
+
+* **Diseño de Experiencia y UI/UX**
+
+| Herramienta | Uso principal | Enlace / Ruta de Acceso |
+|---|---|---|
+| **Figma** | Diseño colaborativo de wireframes, mockups y prototipos navegables para la aplicación y Landing Page. | [https://figma.com](https://figma.com) |
+| **Miro** | Elaboración de user flows, wireflows, Big Picture Event Storming y mapas de arquitectura. | [https://miro.com](https://miro.com) |
+| **UXPressia** | Creación de User Personas, Empathy Maps, Journey Maps e Impact Maps. | [https://uxpressia.com](https://uxpressia.com) |
+
+* **Desarrollo de Software**
+
+| Herramienta / Tecnología | Uso principal | Enlace / Ruta de Descarga |
+|---|---|---|
+| **Visual Studio Code** | Entorno de desarrollo ligero para la edición del Landing Page con HTML5, CSS3 y JavaScript. | [https://code.visualstudio.com](https://code.visualstudio.com) |
+| **WebStorm** | IDE principal para el desarrollo del Frontend SPA utilizando Vue 3 y TypeScript. | [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/) |
+| **Rider / Visual Studio** | Entorno de desarrollo integrado para la construcción del Backend API con ASP.NET Core y C#. | [https://www.jetbrains.com/rider/](https://www.jetbrains.com/rider/) |
+| **HTML5** | Lenguaje de marcado para estructurar el contenido de la Landing Page. | [https://developer.mozilla.org/es/docs/Web/HTML](https://developer.mozilla.org/es/docs/Web/HTML) |
+| **CSS3** | Lenguaje de estilos para definir la apariencia visual y responsiva de la Landing Page. | [https://developer.mozilla.org/es/docs/Web/CSS](https://developer.mozilla.org/es/docs/Web/CSS) |
+| **Vue 3** | Framework progresivo de JavaScript para construir interfaces de usuario reactivas en la Web Application. | [https://vuejs.org](https://vuejs.org) |
+
+* **Diseño de Arquitectura de Software**
+
+| Herramienta | Uso principal | Enlace / Ruta de Acceso |
+|---|---|---|
+| **Mermaid** | Modelado de arquitectura mediante Diagramas como Código (Contexto, Contenedores C3, Clases y Base de datos). | [https://mermaid.js.org](https://mermaid.js.org) |
+
+* **Despliegue de Software**
+
+| Herramienta / Plataforma | Uso principal | Enlace / Ruta de Acceso |
+|---|---|---|
+| **Netlify** | Despliegue automático y gratuito de la Landing Page estática y el Frontend SPA. | [https://www.netlify.com](https://www.netlify.com) |
+| **Render / Azure** | Despliegue en la nube del Backend API (ASP.NET Core) y alojamiento de la base de datos PostgreSQL. | [https://render.com](https://render.com) |
+
+* **Documentación de Software**
+
+| Herramienta / Recurso | Uso principal | Enlace / Ruta de Acceso |
+|---|---|---|
+| **Markdown** | Edición y mantenimiento de los archivos `.md` asociados a la documentación del proyecto. | [https://www.markdownguide.org](https://www.markdownguide.org) |
+| **GitHub** | Repositorio con control de versiones, utilizado además como espacio de documentación en issues y PRs. | [https://github.com](https://github.com) |
+| **Git** | Sistema distribuido de control de versiones para la gestión del código fuente. | [https://git-scm.com](https://git-scm.com) |
+| **GitFlow Workflow** | Modelo de ramificación para mantener el código y la documentación organizados. | [https://nvie.com/posts/a-successful-git-branching-model](https://nvie.com/posts/a-successful-git-branching-model) |
+| **Conventional Commits** | Convención de mensajes de commit para mejorar la trazabilidad y facilitar la generación de changelogs. | [https://www.conventionalcommits.org](https://www.conventionalcommits.org) |
 ### 5.1.2 Source Code Management
+El equipo empleará GitHub como repositorio de alojamiento y Git como sistema de control de versiones para todos los entregables del proyecto FleetProof. Se aplicará la estrategia de ramificación GitFlow Workflow, con el uso de Semantic Versioning y mensajes estructurados bajo la convención de Conventional Commits.
 
-Organización GitHub: https://github.com/1ASI0729-8088-BLIP
+**Repositorios del Proyecto**
 
-| Producto | Repositorio | Branch principal | Releases requeridos |
+| Producto | Repositorio GitHub |
+|---|---|
+| **Organización BLIP** | [https://github.com/1ASI0729-8088-BLIP](https://github.com/1ASI0729-8088-BLIP) |
+| **Landing Page** | [https://github.com/1ASI0729-8088-BLIP/blip-fleetproof-LandingPage](https://github.com/1ASI0729-8088-BLIP/blip-fleetproof-LandingPage) |
+| **Project Report** | [https://github.com/1ASI0729-8088-BLIP/blip-fleetproof-project-report](https://github.com/1ASI0729-8088-BLIP/blip-fleetproof-project-report) |
+| **Frontend Web App** | [https://github.com/1ASI0729-8088-BLIP/blip-fleetproof-frontend](https://github.com/1ASI0729-8088-BLIP/blip-fleetproof-frontend) |
+| **Backend API** | [https://github.com/1ASI0729-8088-BLIP/blip-fleetproof-backend](https://github.com/1ASI0729-8088-BLIP/blip-fleetproof-backend) |
+
+**Modelo GitFlow**
+
+Se seguirá el enfoque planteado por Vincent Driessen, el cual define dos ramas principales:
+* `main`: contiene las versiones estables listas para producción.
+* `develop`: integra nuevas funcionalidades antes de pasar al entorno de producción.
+
+| Tipo de rama | Uso principal | Convención de nombres | Ejemplo |
 |---|---|---|---|
-| Project Report | https://github.com/1ASI0729-8088-BLIP/blip-fleetproof-project-report | `main`, `develop` | AV1, TB1, AV2, TB2 |
-| Landing Page | TODO | `main`, `develop` | `v1.0.0`, `v2.0.0`, `v3.0.0`, `v4.0.0` |
-| Frontend Web Application | TODO | `main`, `develop` | `v1.0.0`, `v2.0.0`, `v3.0.0` |
-| Web Services | TODO | `main`, `develop` | `v1.0.0`, `v2.0.0` |
+| **feature** | Desarrollo de funcionalidades nuevas. | `feature/<nombre-descriptivo>` | `feature/sprint1-landing` |
+| **release** | Preparación de una versión previa al despliegue. | `release/vX.Y.Z` | `release/v1.0.0` |
+| **hotfix** | Corrección rápida de errores en producción. | `hotfix/<problema>` | `hotfix/fix-mobile-menu` |
 
-GitFlow:
+**Versionado Semántico**
 
-- Los aportes del informe para AV1 nacen desde `develop` en `feature/sprint1-<scope>` y se revisan mediante Pull Request hacia `develop`.
-- Las ramas se crean cuando comienza el trabajo; la rama de release se crea al preparar la entrega.
-- Cada User Story se implementa en una rama `feature/usXXX-<short-name>`.
-- Cada User Story cerrada debe entrar con Pull Request y merge hacia `develop`.
-- Cada release se estabiliza en `release/vX.Y.Z`.
-- Cada release aprobado se fusiona hacia `main`, se etiqueta con `vX.Y.Z` y se fusiona de regreso hacia `develop`.
-- Cada hotfix nace desde `main`, se corrige, se fusiona hacia `main` y luego hacia `develop`.
+Se implementará el esquema Semantic Versioning 2.0.0, con el formato:
+
+**MAJOR.MINOR.PATCH**
+* **MAJOR:** cambios incompatibles con versiones anteriores.
+* **MINOR:** incorporación de nuevas funciones compatibles.
+* **PATCH:** corrección de errores o mejoras menores.
+
+**Conventional Commits**
+
+Los mensajes de commit seguirán el estándar Conventional Commits para asegurar trazabilidad y generar changelogs automáticos.
+
+Formato general: `(opcional-scope): descripción breve`
+
+Tipos de commit definidos:
+* `feat`: nueva funcionalidad
+* `fix`: corrección de errores
+* `docs`: cambios en documentación
+* `style`: ajustes de formato (espacios, comas, etc.) sin afectar lógica
+* `refactor`: modificaciones de código sin impacto en funciones o errores
+* `test`: adición o modificación de pruebas
+* `chore`: tareas de mantenimiento o generales
 
 ### 5.1.3 Source Code Style Guide & Coding Conventions
 
-TODO: Documentar convenciones para HTML, CSS, TypeScript y Java. Toda nomenclatura de código debe estar en inglés.
+Con el objetivo de mantener un código ordenado, consistente y fácil de mantener entre todos los miembros del equipo, se han definido las siguientes convenciones. Todas las variables, funciones, clases, archivos y elementos estarán en inglés.
+
+* Se utilizará inglés como idioma único para nombres de variables, funciones, clases, comentarios y documentación técnica.
+* Se evitarán abreviaciones innecesarias y nombres genéricos como `data1`, `temp`, `info`, etc.
+
+**HTML**
+Atributos en minúsculas y nombres de clase con `kebab-case` (`section-title`, `hero-grid`).
+* Estructura semántica clara: uso de etiquetas como `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`.
+* Sangría con 4 espacios.
+* Atributos ordenados de manera lógica: `id`, `class`, `type`, `name`, `placeholder`, `value`, `required`, etc.
+
+**CSS**
+* Para clases personalizadas: usar `kebab-case`.
+* Se agruparán variables globales en la seccion `:root` (paleta de colores y espaciado).
+
+**Google TypeScript Style Guide**
+Basado en el Google TypeScript Style Guide, se adoptan las siguientes reglas para mantener un código limpio y coherente en el desarrollo de la Web Application (Vue 3):
+
+Nombres y sintaxis:
+* `camelCase` para variables, funciones y parámetros.
+* `PascalCase` para clases, interfaces, enums y tipos.
+* Constantes con `UPPER_CASE_WITH_UNDERSCORES` si son globales.
+
+Módulos y imports:
+* Preferir imports explícitos y ordenados: primero bibliotecas externas, luego internas.
+* Evitar `default exports`, usar siempre `export const` o `export class`.
+
+Tipado y declaraciones:
+* Siempre tipar explícitamente los parámetros y valores de retorno de funciones.
+* Evitar `any` excepto cuando sea estrictamente necesario.
+* Usar `readonly` para propiedades que no deben cambiarse.
+* Interfaces en lugar de `type` cuando sea posible.
+
+Buenas prácticas:
+* Preferir `const` sobre `let`, y evitar `var`.
+* Evitar usar `this` fuera de clases.
+* No mezclar funciones y lógica en componentes — delegar a servicios.
+
+**Vue 3 Style Guide**
+Seguiremos las prácticas recomendadas por la documentación oficial de Vue 3:
+
+Componentes:
+* Nombres en `PascalCase` y con sufijo `Component` (ej. `VehicleReportComponent.vue`).
+* Evitar lógica compleja en los templates: delegar a métodos o *composables* (Composition API).
+* Uso de `<script setup>` para mayor legibilidad y rendimiento.
+
+**C# y ASP.NET Core Conventions**
+Para el desarrollo del Backend RESTful API:
+* Nombres de Clases, Métodos e Interfaces (con prefijo `I`) en `PascalCase`.
+* Variables locales y parámetros en `camelCase`.
+* Estructura de carpetas basada en el diseño de Bounded Contexts y Domain-Driven Design (DDD).
+
+**Pruebas / Gherkin**
+En caso de usar Gherkin (para especificaciones o pruebas de los escenarios descritos en las User Stories):
+* Usaremos el formato estandarizado `Given`, `When` y `Then`.
 
 ### 5.1.4 Software Deployment Configuration
 
