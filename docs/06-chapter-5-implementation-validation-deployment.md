@@ -836,21 +836,3 @@ A continuación se presentan los **analíticos de GitHub**, que muestran la part
 <img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789677063/Captura_de_pantalla_2026-09-17_153043_hqzs5r.png" alt="inicio" width="800">
 <img src="https://res.cloudinary.com/dehoql1oc/image/upload/v1789677175/Captura_de_pantalla_2026-09-17_153236_uvfxjo.png" alt="inicio" width="800">
 
-
-## 5.3 Validation Interviews
-
-### 5.3.1 Diseño de Entrevistas
-
-TODO: Definir tareas de validación para Landing Page y Web Application.
-
-### 5.3.2 Registro de Entrevistas
-
-TODO: Registrar entrevistas de validación por segmento.
-
-### 5.3.3 Evaluaciones según heurísticas
-
-TODO: Aplicar formato de evaluación UX por heurísticas.
-
-## 5.4 Video About-the-Product
-
-TODO: Incluir screenshot, URL Microsoft Stream, URL YouTube y duración.
