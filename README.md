@@ -94,11 +94,11 @@
 
 | Bloque | Responsable | Estado | Evidencia |
 |---|---|---|---|
-| GitHub, GitFlow, releases y Capítulo II | Reyes Limo Sebastian | En progreso | Repositorio del informe, estructura GitFlow, control de rúbrica y Capítulo II (competidores, entrevistas, Needfinding, Big Picture Event Storming y Ubiquitous Language). |
+| GitHub, GitFlow, releases y Capítulo II | Reyes Limo Sebastian | Completado | Repositorio del informe, estructura GitFlow, control de rúbrica y Capítulo II (competidores, entrevistas, Needfinding, Big Picture Event Storming y Ubiquitous Language). |
 | Lean UX Process y Capítulo I | Quintanilla Gonzalo | Completado | Capítulo I: Startup Profile, Solution Profile, Lean UX Process y Lean UX Canvas. |
-| UX Research y competidores (colaborador) | Morales Jefferson | En progreso | Apoyo en Capítulo II: diseño y registro de entrevistas, análisis competitivo. |
+| UX Research y competidores (colaborador) | Morales Jefferson | Completado | Apoyo en Capítulo II: diseño y registro de entrevistas, análisis competitivo. |
 | User Stories y Product Backlog | Gómez De La Torre Rodrigo | Completado | Capítulo III: User Stories con criterios de aceptación, Impact Mapping y Product Backlog. |
-| Product Design y Landing Page v1.0.0 | Gorbeña Eduardo | En progreso | Capítulo IV: Style Guidelines, Information Architecture, wireframes y mock-ups. |
+| Product Design y Landing Page v1.0.0 | Gorbeña Eduardo | Completado | Capítulo IV: Style Guidelines, Information Architecture, wireframes y mock-ups. |
 
 ## Repositorios del Proyecto
 
