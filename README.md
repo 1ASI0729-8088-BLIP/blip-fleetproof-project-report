@@ -47,10 +47,10 @@
 | Código | Apellidos y nombres |
 |---|---|
 | u202311656 | Reyes Limo, Sebastian |
-| Pendiente | Quintanilla, Gonzalo |
-| Pendiente | Gómez De La Torre, Rodrigo |
-| Pendiente | Morales, Jefferson |
-| Pendiente | Gorbeña, Eduardo |
+| u202315007 | Quintanilla, Gonzalo |
+| u202311464 | Gómez De La Torre, Rodrigo |
+| u202316049 | Morales, Jefferson |
+| u202314216 | Gorbeña, Eduardo |
 
 <br>
 
@@ -69,10 +69,10 @@
 | Código | Apellidos y nombres | Carrera | GitHub username | Rol AV1 |
 |---|---|---|---|---|
 | u202311656 | Reyes Limo, Sebastian | Ingeniería de Software | llegastian11 | Technical Lead, SCM and Rubric Owner |
-| Pendiente | Quintanilla, Gonzalo | Ingeniería de Software | Pendiente | Lean UX Owner |
-| Pendiente | Gómez De La Torre, Rodrigo | Ingeniería de Software | Pendiente | Requirements Owner |
-| Pendiente | Morales, Jefferson | Ingeniería de Software | Pendiente | UX Research Owner |
-| Pendiente | Gorbeña, Eduardo | Ingeniería de Software | Pendiente | Product Design and Landing Page Owner |
+| u202315007 | Quintanilla, Gonzalo | Ingeniería de Software | Pendiente | Lean UX Owner |
+| u202311464 | Gómez De La Torre, Rodrigo | Ingeniería de Software | Pendiente | Requirements Owner |
+| u202316049 | Morales, Jefferson | Ingeniería de Software | Pendiente | UX Research Owner |
+| u202314216 | Gorbeña, Eduardo | Ingeniería de Software | Pendiente | Product Design and Landing Page Owner |
 
 ## Tabla de Contenidos
 
@@ -104,7 +104,7 @@
 
 | Producto | Repositorio | Versiones requeridas |
 |---|---|---|
-| Project Report | https://github.com/1ASI0729-8088-BLIP/blip-fleetproof-project-report | AV1, TB1, AV2, TB2 |
-| Landing Page | TODO | v1.0.0, v2.0.0, v3.0.0, v4.0.0 |
-| Frontend Web Application | TODO | v1.0.0, v2.0.0, v3.0.0 |
-| Web Services | TODO | v1.0.0, v2.0.0 |
+| Project Report | https://github.com/1ASI0729-8088-BLIP/blip-fleetproof-project-report | AV1|
+| Landing Page | Terminado | v1.0.0 |
+| Frontend Web Application | Terminado | v1.0.0 |
+| Web Services | Terminado | v1.0.0 |
