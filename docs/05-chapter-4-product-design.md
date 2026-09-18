@@ -486,7 +486,46 @@ https://www.figma.com/make/LkD3mKP9wjNjnOPTRRzoCt/Create-web-wireframes?t=wjEZRv
 
 ### 4.6.1 Design-Level Event Storming
 
-TODO: Identificar Bounded Contexts, Aggregates, Events, Commands and Queries.
+Step 1: Unstructured Exploration
+
+![image](https://hackmd.io/_uploads/r1PD-AFKzx.png)
+
+Step 2: Timelines
+
+![image](https://hackmd.io/_uploads/rJ3AWRtKGl.png)
+
+Step 3: Pain Points
+
+![image](https://hackmd.io/_uploads/SJaEzRtYfe.png)
+
+Step 4: Pivotal Points
+
+![image](https://hackmd.io/_uploads/B1NDz0KKGe.png)
+
+Step 5: Commands
+
+![image](https://hackmd.io/_uploads/rkhqGRtFzg.png)
+
+Step 6: Policies
+
+![image](https://hackmd.io/_uploads/rk62MAYKGg.png)
+
+Step 7: Read Models
+
+![image](https://hackmd.io/_uploads/HJGym0YFGg.png)
+
+Step 8: External Systems
+
+![image](https://hackmd.io/_uploads/ryegGm0YFfe.png)
+
+Step 9: Aggregates
+
+![image](https://hackmd.io/_uploads/SJ88QAFKGl.png)
+
+Step 10: Bounded Contexts
+
+![image](https://hackmd.io/_uploads/BJYAmRYYzl.png)
+
 
 ### 4.6.2 Software Architecture Context Diagram
 
