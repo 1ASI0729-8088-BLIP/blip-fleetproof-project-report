@@ -68,11 +68,11 @@
 
 | Código | Apellidos y nombres | Carrera | GitHub username | Rol AV1 |
 |---|---|---|---|---|
-| u202311656 | Reyes Limo, Sebastian | Ingeniería de Software | llegastian11 | Technical Lead, SCM and Rubric Owner |
-| u202315007 | Quintanilla, Gonzalo | Ingeniería de Software | Pendiente | Lean UX Owner |
-| u202311464 | Gómez De La Torre, Rodrigo | Ingeniería de Software | Pendiente | Requirements Owner |
-| u202316049 | Morales, Jefferson | Ingeniería de Software | Pendiente | UX Research Owner |
-| u202314216 | Gorbeña, Eduardo | Ingeniería de Software | Pendiente | Product Design and Landing Page Owner |
+| u202311656 | Reyes Limo, Sebastian | Ingeniería de Software | llegastian11 | Team Leader; organización del equipo y del repositorio (SCM, GitFlow); Capítulo II (Requirements Elicitation & Analysis) Owner; elaboración de la presentación (Keynote); encargado del envío del informe |
+| u202315007 | Quintanilla, Gonzalo | Ingeniería de Software | GoldQP | Capítulo I (Startup Profile, Solution Profile) Owner; Lean UX Process Owner |
+| u202311464 | Gómez De La Torre, Rodrigo | Ingeniería de Software | rod670 | Capítulo III (Requirements Specification) Owner |
+| u202316049 | Morales, Jefferson | Ingeniería de Software | Fenfito | UX Research Owner; colaborador en Capítulo II (diseño y registro de entrevistas, análisis competitivo) |
+| u202314216 | Gorbeña, Eduardo | Ingeniería de Software | EduardooGV | Capítulo IV (Product Design) Owner; Landing Page Owner |
 
 ## Tabla de Contenidos
 
@@ -94,11 +94,11 @@
 
 | Bloque | Responsable | Estado | Evidencia |
 |---|---|---|---|
-| GitHub, GitFlow y releases | Reyes Limo Sebastian | En progreso | Repositorio del informe y estructura base. |
-| Lean UX Process | Quintanilla Gonzalo | Pendiente | TODO |
-| UX Research y competidores | Morales Jefferson | Pendiente | TODO |
-| User Stories y Product Backlog | Gómez De La Torre Rodrigo | Pendiente | TODO |
-| Product Design y Landing Page v1.0.0 | Gorbeña Eduardo | Pendiente | TODO |
+| GitHub, GitFlow, releases y Capítulo II | Reyes Limo Sebastian | En progreso | Repositorio del informe, estructura GitFlow, control de rúbrica y Capítulo II (competidores, entrevistas, Needfinding, Big Picture Event Storming y Ubiquitous Language). |
+| Lean UX Process y Capítulo I | Quintanilla Gonzalo | Completado | Capítulo I: Startup Profile, Solution Profile, Lean UX Process y Lean UX Canvas. |
+| UX Research y competidores (colaborador) | Morales Jefferson | En progreso | Apoyo en Capítulo II: diseño y registro de entrevistas, análisis competitivo. |
+| User Stories y Product Backlog | Gómez De La Torre Rodrigo | Completado | Capítulo III: User Stories con criterios de aceptación, Impact Mapping y Product Backlog. |
+| Product Design y Landing Page v1.0.0 | Gorbeña Eduardo | En progreso | Capítulo IV: Style Guidelines, Information Architecture, wireframes y mock-ups. |
 
 ## Repositorios del Proyecto
 
