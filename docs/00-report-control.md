@@ -3,6 +3,7 @@
 | Versión | Fecha | Autor | Descripción de modificación |
 |---|---|---|---|
 | 0.1.0 | 2026-09-12 | BLIP | Estructura base del informe de Open Source; el aporte del Capítulo II se desarrolla en una rama independiente. |
+| 0.2.0 | 2026-09-17 | Reyes Limo, Sebastian | Corrección de roles y responsabilidades del equipo (README), actualización del estado real de los capítulos en Estado AV1, y completado del cuadro de Student Outcome con las acciones de todos los integrantes. |
 
 # Project Report Collaboration Insights
 
